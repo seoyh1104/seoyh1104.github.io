@@ -25,10 +25,8 @@ main:
 docs:
   - title : "index1"
     children : 
-      - title : "Category"
+      - title : "certificate"
         url : /categories/
-      - title : "Tag"
-        url: /tags/
   - title : "index2"
     children : 
       - title : "Category"
