@@ -105,8 +105,8 @@ analytics:
 # Site Author
 author:
   name             : "Yuhui Seo"
-  avatar           : "/assets/images/YH-SEO.jpg"
-  bio              : "I am an **amazing** person. 안녕하세요. **ユヒ**です。"
+  avatar           : "/assets/images/YH SEO.jpg"
+  bio              : "I am an **amazing** person. /n 안녕하세요. /n **ユヒ**です。"
   location         : "South Korea"
   email            :
   links:
