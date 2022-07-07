@@ -1,8 +1,7 @@
 ---
-layout: single
 title:  "Welcome to Jekyll!"
+layout: single
 ---
-
 
 # Welcome
 
