@@ -1,10 +1,11 @@
 ---
 title: "Engineer Information Processing"
 layout : single
-categories : certificate
-tag : [정보처리기사, 정처기, certificate, Engineer Information Processing]
-toc : true
 author_profile : false
+categories : certificate
+toc : true
+tag : [정보처리기사, 정처기, certificate, Engineer Information Processing]
+
 sidebar :
     nav : "docs"
 ---
