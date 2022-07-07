@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Engineer Information Processing"
 categories : certificate
 tag : [정보처리기사, 정처기, certificate, Engineer Information Processing]
