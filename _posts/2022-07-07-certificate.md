@@ -4,8 +4,7 @@ layout : single
 author_profile : false
 categories : certificate
 toc : true
-tag : [정보처리기사, 정처기, certificate, Engineer Information Processing]
-
+tag : [Engineer Information Processing, certificate, 정보처리기사]
 sidebar :
     nav : "docs"
 ---
