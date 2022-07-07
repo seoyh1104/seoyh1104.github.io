@@ -100,16 +100,16 @@ sidebar :
 
 ### OSI 7계층(Layer) ★★
 - **아(A)파(P)서(S) 티(T)내(Ne)다(Da) 피(Phy)**나다
-- ⑦ 응용 계층(**A**pplication Layer) : **사용자와 네트워크 간** 응용서비스 연결, 데이터 생성
+- ⑦ **응**용 계층(**A**pplication Layer) : **사용자와 네트워크 간** 응용서비스 연결, 데이터 생성
   - HTTP, FTP, TELNET, SMTP/SNTP, DNS
-- ⑥ 표현 계층(**P**resentation Layer) : 데이터 형식 설정, **코드변환**, **암/복호화**
+- ⑥ **표**현 계층(**P**resentation Layer) : 데이터 형식 설정, **코드변환**, **암/복호화**
   - JPEG, MPEG 
-- ⑤ 세션 계층(**S**ession Layer) : **연결 접속(유지)**, 동기제어, **동기점(대화)**
+- ⑤ **세**션 계층(**S**ession Layer) : **연결 접속(유지)**, 동기제어, **동기점(대화)**
   - SSH, TLS 
-- ④ 전송 계층(**T**ransport Layer) : **종단간(End to End) 신뢰성** 있고
-- ③ 네트워크 계층(**Ne**twork Layer)
-- ② 데이터 링크 계층(**Da**ta Link Layer)
-- ① 물리 계층(**Phy**sical Layer)
+- ④ **전**송 계층(**T**ransport Layer) : **종단간(End to End) 신뢰성** 있고
+- ③ **네**트워크 계층(**Ne**twork Layer)
+- ② **데**이터 링크 계층(**Da**ta Link Layer)
+- ① **물**리 계층(**Phy**sical Layer)
 
 ---
 
