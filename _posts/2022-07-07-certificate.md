@@ -9,7 +9,7 @@ sidebar :
     nav : "docs"
 ---
 
-# 2022 정보처리기사 필기 NOTE
+# 정보처리기사 필기 NOTE
 ## 1과목 : 소프트웨어 설계(20문제)
 ### 소프트웨어 생명 주기, SDLC(Software Development Life Cycle)
 
