@@ -1,6 +1,12 @@
 ---
 layout: single
-title:  "Engineer Information Processing"
+title: "Engineer Information Processing"
+categories : certificate
+tag : [정보처리기사, 정처기, certificate, Engineer Information Processing]
+toc : true
+author_profile : false
+sidebar :
+    nav : "docs"
 ---
 
 # 2022 정보처리기사 필기 NOTE
