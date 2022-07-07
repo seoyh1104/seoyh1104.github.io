@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "certificate | Engineer Information Processing"
+title:  "Engineer Information Processing"
 ---
 
 # 2022 정보처리기사 필기 NOTE
