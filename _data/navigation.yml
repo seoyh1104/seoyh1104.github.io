@@ -7,13 +7,29 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
+  - title: "Category"
+    url: /categories/
   - title: "By Year"
     url: /year-archive/
   - title: "Tag"
     url: /tags/
-  - title: "Category"
-    url: /categories/
+  - title: "Search"
+    url: /search/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+# Add 2022-07-07 Yuhui Seo
+# docs links
+docs:
+  - title : "index1"
+    children : 
+      - title : "certificate"
+        url : /categories/
+  - title : "index2"
+    children : 
+      - title : "Category"
+        url : /categories/
+      - title : "Tag"
+        url: /tags/

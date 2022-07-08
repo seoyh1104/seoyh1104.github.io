@@ -1,8 +1,7 @@
 ---
-layout: single
 title:  "Welcome to Jekyll!"
+layout: single
 ---
-
 
 # Welcome
 
@@ -10,5 +9,4 @@ title:  "Welcome to Jekyll!"
 
 I hope you like it! 
 
-![images](../images/2022-07-07-first-posting/cherry.png)
 ![images](../images/2022-07-07-first-posting/slack.png)
