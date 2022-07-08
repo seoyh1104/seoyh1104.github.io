@@ -126,6 +126,8 @@ blockquote {
 /* links */
 
 a {
+  /* Update 2022-07-08 Yuhui Seo */
+  text-decoration: none;
   &:focus {
     @extend %tab-focus;
   }
