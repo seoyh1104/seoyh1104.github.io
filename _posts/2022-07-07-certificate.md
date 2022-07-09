@@ -1,5 +1,5 @@
 ---
-title: "Engineer Information Processing"
+title: "정보처리기사 필기 정리"
 layout : single
 author_profile : false
 categories : certificate
@@ -191,9 +191,10 @@ sidebar :
 ### 미들웨어(Middleware) 솔루션 명세
 - 미들웨어(Middleware) : 운영체제(OS)와 해당 운영체제에서 실행되는 응용 프로그램 사이에서 운영체제가 제공하는 서비스 이외의 추가적인 서비스를 제공하는 **소프트웨어**
 - **디원메트 레객와**
+
 1. DB(Database)
 - 클라이언트에서 원격의 데이터베이스와 연결하기 위한 미들웨어, **2-Tier 아키텍처**
-- `ODBC(마이크로소프트)`, `IDAPI(볼랜드)`, `Glue(오라클)`
+  - `ODBC(마이크로소프트)`, `IDAPI(볼랜드)`, `Glue(오라클)`
 
 2. RPC(Remote Procedure Call, **원**격 프로시저 호출)
 - 응용 프로그램의 프로시저를 사용하여 **원격 프로시저를 로컬 프로시저처럼 호출**하는 미들웨어
