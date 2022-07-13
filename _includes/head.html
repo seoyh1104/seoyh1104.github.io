@@ -15,6 +15,11 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<!-- Add Dark Theme Toggle Button 2022-07-12 Yuhui Seo Start -->
+{% if site.dark_theme_toggle == true %}
+<link rel="stylesheet" href="/assets/css/main_dark.css">
+{% endif %}
+<!-- Add Dark Theme Toggle Button 2022-07-12 Yuhui Seo End -->
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
 
@@ -22,13 +27,4 @@
   {% for script in site.head_scripts %}
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
-{% endif %}
-
-
-<!-- Add Dark Theme Toggle Button 2022-07-12 Yuhui Seo -->
-<!-- For all browsers -->
-<link rel="stylesheet" href="/assets/css/main.css">
-<!-- darkmode css -->
-{% if site.dark_theme_toggle == true %}
-<link rel="stylesheet" href="/assets/css/main_dark.css">
 {% endif %}
