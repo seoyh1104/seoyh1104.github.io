@@ -27,12 +27,13 @@
             </svg>
         </button>
         {% endif %}
-        <!-- Update Dark Theme Toggle Button 2022-07-12 Yuhui Seo End -->
+        <!-- Update Dark Theme Toggle Button 2022-07-13 Yuhui Seo End -->
         <!-- Add Dark Theme Toggle Button 2022-07-12 Yuhui Seo Start -->
         {% if site.dark_theme_toggle == true %}
         <input id="toggle_dark_theme" class="mh_toogle" type="checkbox">
         <label for="toggle_dark_theme" class="material-icons-sharp mh_toggle_btn"></label>
-        <!-- Add Dark Theme Toggle Button 2022-07-12 Yuhui Seo End -->
+        {% endif %}
+        <!-- Add Dark Theme Toggle Button 2022-07-13 Yuhui Seo End -->
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
           <div class="navicon"></div>
