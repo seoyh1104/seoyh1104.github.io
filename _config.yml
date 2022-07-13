@@ -297,6 +297,8 @@ defaults:
       share: true
       related: true
       show_date : true # Add 2022-07-07 Yuhui Seo
+      toc: true
+      toc_sticky: true
 
 # Add Date Format 2022-07-07 Yuhui Seo
 date_format : "%Y-%m-%d"
