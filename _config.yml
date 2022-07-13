@@ -11,11 +11,11 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "default" (default) # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
 # Add Dark Theme Toggle Button 2022-07-12 Yuhui Seo
 dark_theme_toggle        : true
+
 after_footer_scripts:
   - /assets/js/custom/dark-theme.js
 
@@ -28,14 +28,14 @@ name                     : "Yuhui Seo"
 description              : "개인 기술 블로그 입니다."
 url                      : "https://seoyh1104.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "seoyh1104/seoyh1104.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/cherry.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "custom" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : "yuhuis-site" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
