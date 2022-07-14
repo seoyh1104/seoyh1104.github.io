@@ -9,7 +9,7 @@ html {
   box-sizing: border-box;
   background-color: $background-color;
   /* Update 2022-07-07 Yuhui Seo */
-  font-size: 14px;/* font-size: 16px; */
+  font-size: 16px;/* font-size: 16px; */
 
   @include breakpoint($medium) {
     /* Update 2022-07-07 Yuhui Seo */
