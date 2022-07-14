@@ -2,9 +2,9 @@
 title: "정보처리기사 필기 기출문제"
 layout : single
 author_profile : false
-categories : certificate
+categories : 정보처리기사
 toc : true
-tag : [Engineer Information Processing, certificate, 기출문제, 정보처리기사]
+tag : [Engineer Information Processing, certificate, 정보처리기사]
 sidebar :
     nav : "docs"
 ---
