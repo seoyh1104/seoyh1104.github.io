@@ -303,3 +303,6 @@ defaults:
 
 # Add Date Format 2022-07-07 Yuhui Seo
 date_format : "%Y-%m-%d"
+
+# Add 2022-07-14 Yuhui Seo
+futrue: true
