@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "default" (default) # "air", "aqua", "con
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "기술 블로그"
+title                    : "공부 기록 블로그"
 title_separator          : "|"
-subtitle                 : "Yuhui's Site"
+subtitle                 : "Yuhui's blog"
 name                     : "Yuhui Seo"
-description              : "개인 기술 블로그 입니다. An amazing website."
+description              : "공부와 일상을 기록하는 블로그입니다."
 url                      : "https://seoyh1104.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Yuhui Seo"
   avatar           : "/assets/images/yh-seo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "welcome :D"
   location         : "South Korea"
   email            :
   links:
