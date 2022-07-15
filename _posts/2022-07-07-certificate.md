@@ -3,7 +3,10 @@ title: "정보처리기사 필기 정리"
 layout : single
 author_profile : false
 categories : certificate
-toc : true
+toc : true# table of contents
+toc_label: "table of content"
+toc_icon: "bars"
+toc_sticky: true
 tag : [Engineer Information Processing, certificate, 정보처리기사]
 sidebar :
     nav : "docs"
