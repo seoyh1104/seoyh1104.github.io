@@ -7,10 +7,15 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
-  - title: "Category"
-    url: /categories/
+  # Add 2022-07-16 Yuhui Seo
+  - title: "Home"
+    url: index.html
+  - title: "About"
+    url: /about/
   - title: "By Year"
     url: /year-archive/
+  - title: "Category"
+    url: /categories/
   - title: "Tag"
     url: /tags/
   - title: "Search"
@@ -23,11 +28,21 @@ main:
 # Add 2022-07-07 Yuhui Seo
 # docs links
 docs:
-  - title : "index1"
+  - title : "Certificate"
     children : 
-      - title : "certificate"
-        url : /categories/
-  - title : "index2"
+      - title : "정보처리기사 필기"
+        url : /certificate/Engineer-Information-Processing
+  - title : "Jekyll"
+    children :
+      - title : "Start Local Jekyll Server"
+        url : /jekyll/start-local-jekyll-server
+      - title : "Jekyll Emoji"
+        url : /Markdown/github-markdown-emoji
+  - title : "지금은 404"
+    children : 
+      - title : "Markdown"
+        url : /404.html
+  - title : ":cherries:"
     children : 
       - title : "Category"
         url : /categories/
