@@ -349,4 +349,4 @@ gem install jemoji
 | :small_red_triangle_down: `:small_red_triangle_down:` | :shipit: `:shipit:` |
 
 ### Reference
-- [rxaviers/gist:7360908](https://gist.github.com/rxaviers/7360908#file-gistfile1-md){:target="_blank"}
+- [https://gist.github.com/rxaviers/7360908#file-gistfile1-md](https://gist.github.com/rxaviers/7360908#file-gistfile1-md){:target="_blank"}
