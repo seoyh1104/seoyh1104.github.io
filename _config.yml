@@ -293,8 +293,4 @@ defaults:
       related: true
       show_date : true # Add 2022-07-07 Yuhui Seo |포스팅 날짜 표시
       sidebar_main: true
-      # Add 2022-07-15 Yuhui Seo | TOC 설정 추가
-      toc: true
-      toc_icon: "bars"
-      toc_sticky: true
 date_format : "%Y-%m-%d" # Add 2022-07-07 Yuhui Seo
