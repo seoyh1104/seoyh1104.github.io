@@ -59,7 +59,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : # true, false (default) |블로그 검색 기능 설정
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
@@ -292,5 +292,4 @@ defaults:
       share: true
       related: true
       show_date : true # Add 2022-07-07 Yuhui Seo |포스팅 날짜 표시
-toc_sticky: true
 date_format : "%Y-%m-%d" # Add 2022-07-07 Yuhui Seo 
