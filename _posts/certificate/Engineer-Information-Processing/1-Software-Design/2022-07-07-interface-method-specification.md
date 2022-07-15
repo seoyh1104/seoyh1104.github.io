@@ -6,13 +6,12 @@ toc : true
 toc_label: "Table of Contents"
 toc_icon: "bars"
 toc_sticky: true
-author_profile : true
+author_profile : false
 tag : [정보처리기사]
 sidebar :
     nav : "docs"
 ---
 
-# 인터페이스 방법 명세화
 ## 시스템 연계 기술
 시스템 연계 기술은 개발할 시스템과 내 · 외부 시스템을 연계할 때 사용되는 기술을 의미한다.
 

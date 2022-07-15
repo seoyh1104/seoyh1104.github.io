@@ -12,23 +12,27 @@ sidebar :
     nav : "docs"
 ---
 
-# 1과목 : 소프트웨어 설계(20문제)
-## [소프트웨어 개발의 생명주기 모형, SDLC(Software-Development-Life-Cycle) ★★](/certificate/SDLC(Software-Development-Life-Cycle))
-## [XP(eXtreme Programming) 기법 ★★](/certificate/Code)
-## [UML(Unified Modeling Language) ★★★](/certificate/UML(Unified-Modeling-Language))
-## [OSI 7계층(Layer) ★★](/certificate/OSI-7Layer)
-## [객체 지향(Object-Oriented) ★★](/certificate/Object-Oriented)
-## [객체 모델링 기법(OMT) / 럼바우의 객체 지향 분석 ★★](/certificate/OMT(Object-Modeling-Technique))
-## [결합도(Coupling) ★★](/certificate/Coupling)
-## [응집도(Cohesion) ★★](/certificate/Cohesion)
-## [코드(Code) ★★](/certificate/Code)
-## [디자인 패턴(Design Pattern) ★★](/certificate/Design-Pattern)
-## [인터페이스 방법 명세화 ★★](/certificate/Interface-Method-Specification)
-## [미들웨어 솔루션 명세 ★★](/certificate/Middleware)
+## 1과목 : 소프트웨어 설계(20문제)
+### [소프트웨어 개발의 생명주기 모형, SDLC(Software-Development-Life-Cycle) ★★](/certificate/SDLC(Software-Development-Life-Cycle))
+### [XP(eXtreme Programming) 기법 ★★](/certificate/Code)
+### [UML(Unified Modeling Language) ★★★](/certificate/UML(Unified-Modeling-Language))
+### [OSI 7계층(Layer) ★★](/certificate/OSI-7Layer)
+### [객체 지향(Object-Oriented) ★★](/certificate/Object-Oriented)
+### [객체 모델링 기법(OMT) / 럼바우의 객체 지향 분석 ★★](/certificate/OMT(Object-Modeling-Technique))
+### [결합도(Coupling) ★★](/certificate/Coupling)
+### [응집도(Cohesion) ★★](/certificate/Cohesion)
+### [코드(Code) ★★](/certificate/Code)
+### [디자인 패턴(Design Pattern) ★★](/certificate/Design-Pattern)
+### [인터페이스 방법 명세화 ★★](/certificate/Interface-Method-Specification)
+### [미들웨어 솔루션 명세 ★★](/certificate/Middleware)
 
 ---
 
-# 2과목 : 소프트웨어 개발(20문제)
+## 2과목 : 소프트웨어 개발(20문제)
+### [자료구조 ★★](/certificate/structure/) 
+
+
+
 
 ---
 

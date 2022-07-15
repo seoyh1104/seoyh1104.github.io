@@ -6,13 +6,12 @@ toc : true
 toc_label: "Table of Contents"
 toc_icon: "bars"
 toc_sticky: true
-author_profile : true
+author_profile : false
 tag : [정보처리기사]
 sidebar :
     nav : "docs"
 ---
 
-# 미들웨어 솔루션 명세
 ## 미들웨어(Middleware)란?
 운영체제(OS)와 해당 운영체제에서 실행되는 응용 프로그램 사이에서 운영체제가 제공하는 서비스 이외의 추가적인 서비스를 제공하는 **소프트웨어**
 - **디원메트 레객와**

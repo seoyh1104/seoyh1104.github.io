@@ -6,13 +6,12 @@ toc : true
 toc_label: "Table of Contents"
 toc_icon: "bars"
 toc_sticky: true
-author_profile : true
+author_profile : false
 tag : [정보처리기사]
 sidebar :
     nav : "docs"
 ---
 
-# UML ★★★
 - **사관다**
   - **사**물, **관**계, **다**이어그램
 

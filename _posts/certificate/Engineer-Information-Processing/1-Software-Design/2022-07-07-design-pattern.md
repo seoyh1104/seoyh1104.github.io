@@ -6,13 +6,12 @@ toc : true
 toc_label: "Table of Contents"
 toc_icon: "bars"
 toc_sticky: true
-author_profile : true
+author_profile : false
 tag : [정보처리기사]
 sidebar :
     nav : "docs"
 ---
 
-# 디자인 패턴
 ## 디자인 패턴(Design Pattern)이란?
 - 소프트웨어 프로그램을 개발할때 참조할 수 있는 해결책 또는 예제
 - 아키텍처 패턴이 디자인 패턴보다 상위 수준의 설계에 사용됨
