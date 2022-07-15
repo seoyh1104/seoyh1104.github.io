@@ -12,7 +12,6 @@ sidebar :
     nav : "docs"
 ---
 
-# 객체 지향(Object-Oriented) ★★
 ## 객체(Object)
 - **독립적으로 식별 가능한 이름**을 가짐
 - 객체가 가질 수 있는 조건인 상태(State)는 일반적으로 시간에 따라 변함
