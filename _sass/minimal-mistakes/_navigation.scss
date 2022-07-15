@@ -506,7 +506,9 @@
 .toc {
   font-family: $sans-serif-narrow;
   color: $gray;
-  background-color: $background-color;
+  /* Update 2022-07-15 Yuhui Seo */
+  // background-color: $background-color;
+  background: #b0b0d4;
   border: 1px solid $border-color;
   border-radius: $border-radius;
   -webkit-box-shadow: $box-shadow;
