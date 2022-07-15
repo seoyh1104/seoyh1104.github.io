@@ -1,5 +1,5 @@
 ---
-title: "github-markdown-emoji"
+title: "Jekyll 이모지 추가하기"
 layout : single
 categories : Markdown
 toc : true
@@ -7,15 +7,36 @@ toc_label: "Table of Contents"
 toc_icon: "bars"
 toc_sticky: true
 author_profile : true
-tag : [Markdown]
+tag : [Markdown, Jekyll]
 sidebar :
     nav : "docs"
 ---
 
-## Reference
-- [rxaviers/gist:7360908](https://gist.github.com/rxaviers/7360908#file-gistfile1-md){:target="_blank"}
+# Jekyll 이모지 추가하기 (Github Markdown Emoji)
 
-People
+## Gemfile
+
+```
+gem 'jemoji'
+```
+
+## _config.yml
+
+```yml
+plugins:
+  - jemoji
+```
+
+## Ruby
+
+```
+gem install jemoji
+```
+
+---
+
+# Emoji
+## People
 
 | :bowtie: `:bowtie:` | :smile: `:smile:` | :laughing: `:laughing:` |
 |---|---|---|
@@ -84,7 +105,7 @@ People
 | :rage2: `:rage2:` | :rage3: `:rage3:` | :rage4: `:rage4:` |
 | :suspect: `:suspect:` | :trollface: `:trollface:` | 
 
-Nature
+## Nature
 
 | :sunny: `:sunny:` | :umbrella: `:umbrella:` | :cloud: `:cloud:` |
 |---|---|---|
@@ -127,7 +148,7 @@ Nature
 | :milky_way: `:milky_way:` | :partly_sunny: `:partly_sunny:` | :octocat: `:octocat:` |
 | :squirrel: `:squirrel:` |
 
-Objects
+## Objects
 
 | :bamboo: `:bamboo:` | :gift_heart: `:gift_heart:` | :dolls: `:dolls:` |
 |---|---|---|
@@ -218,7 +239,7 @@ Objects
 | :sweet_potato: `:sweet_potato:` | :eggplant: `:eggplant:` | :tomato: `:tomato:` |
 | :corn: `:corn:` |
 
-Places
+## Places
 
 | :house: `:house:` | :house_with_garden: `:house_with_garden:` | :school: `:school:` |
 |---|---|---|
@@ -258,7 +279,7 @@ Places
 | :ru: `:ru:` | :gb: `:gb:` | :uk: `:uk:` |
 | :de: `:de:` |
 
-Symbols
+## Symbols
 
 | :one: `:one:` | :two: `:two:` | :three: `:three:` |
 |---|---|---|
@@ -326,3 +347,6 @@ Symbols
 | :large_blue_circle: `:large_blue_circle:` | :large_blue_diamond: `:large_blue_diamond:` | :large_orange_diamond: `:large_orange_diamond:` |
 | :small_blue_diamond: `:small_blue_diamond:` | :small_orange_diamond: `:small_orange_diamond:` | :small_red_triangle: `:small_red_triangle:` |
 | :small_red_triangle_down: `:small_red_triangle_down:` | :shipit: `:shipit:` |
+
+### Reference
+- [rxaviers/gist:7360908](https://gist.github.com/rxaviers/7360908#file-gistfile1-md){:target="_blank"}
