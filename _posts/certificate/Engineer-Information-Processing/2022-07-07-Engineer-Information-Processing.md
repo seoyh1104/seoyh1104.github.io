@@ -29,8 +29,14 @@ sidebar :
 ---
 
 ## 2과목 : 소프트웨어 개발(20문제)
-### [자료구조 ★★](/certificate/structure/) 
-
+### [자료구조 ★★](/certificate/structure) 
+### [데이터 입・출력 ★★](/certificate/data-input-output) 
+### [절차형 SQL ★](/certificate/procedural-sql)
+### [개발 지원 도구 ★★](/certificate/development-support-tool)
+### [디지털 저작권 관리 ★★](/certificate/digital-rights-management)
+### [형상 관리 ★★](/certificate/configuration-management)
+### [버전 관리 도구 ★★](/certificate/version-managing-tool)
+### [애플리케이션 테스트 ★★](/certificate/version-managing-tool)
 
 
 
