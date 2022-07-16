@@ -37,7 +37,7 @@ docs:
       - title : "Start Local Jekyll Server"
         url : /jekyll/start-local-jekyll-server
       - title : "Jekyll Emoji"
-        url : /Markdown/github-markdown-emoji
+        url : /markdown/github-markdown-emoji
   - title : "지금은 404"
     children : 
       - title : "Markdown"
