@@ -5,6 +5,7 @@
 /* Colors */
 $text-color: #000 !default;
 $muted-text-color: $text-color !default;
+
 /* Update 2022-07-16 Yuhui Seo */
 // $primary-color: #ff0000 !default;
 $primary-color: #f21368 !default;
@@ -13,6 +14,11 @@ $border-color: mix(#fff, $text-color, 75%) !default;
 $footer-background-color: #f2136960 !default;
 // $link-color: #0000ff !default;
 $link-color: #f21368 !default;
+
+/* Add 2022-07-16 Yuhui Seo */
+$code-background-color      : #ffe4ff !default;
+// $code-background-color-dark : $primary-color !default;
+
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
