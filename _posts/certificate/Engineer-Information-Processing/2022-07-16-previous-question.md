@@ -22,8 +22,8 @@ sidebar :
   - 레이어 패턴(Layers Pattern) : 시스템을 계층으로 구분하여 구성, Ex) OSI 참조 모델
   - 클라이언트-서버 패턴(Client-Server Pattern) : 하나의 서버 컴포넌트와 다수의 클라이언트 컴포넌트로 구성되는 패턴
   - 파이프-필터 패턴(Pipe-Filter Pattern) : 데이터 스트림 절차의 각 단계를 필터 컴포넌트로 캡슐화하여 파이프를 통해 데이터를 전송하는 패턴 Ex) UNIX의 쉘
+  - 모델-뷰-컨트롤러 패턴(Model-View-Controller Pattern) : 서브시스템을 3개의 부분으로 구조화하는 패턴
 
----
 
 ## 객체지향 관련
 1. 객체지향 분석 방법론 중 **Coad-Yourdon** 방법에 해당하는 것은? (2021년03월07일 기출문제)
