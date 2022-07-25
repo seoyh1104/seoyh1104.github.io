@@ -1,5 +1,5 @@
 ---
-title: "절차형 SQL"
+title: "[정보처리기사] 절차형 SQL"
 layout : single
 categories : certificate
 toc : true

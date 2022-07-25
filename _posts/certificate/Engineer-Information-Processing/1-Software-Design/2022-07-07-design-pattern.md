@@ -1,5 +1,5 @@
 ---
-title: "디자인 패턴(Design Pattern)"
+title: "[정보처리기사] 디자인 패턴(Design Pattern)"
 layout : single
 categories : certificate
 toc : true

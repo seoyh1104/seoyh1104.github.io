@@ -1,5 +1,5 @@
 ---
-title: "정보처리기사 필기 기출문제 정리"
+title: "[정보처리기사] 필기 기출문제 정리"
 layout : single
 categories : certificate
 toc : true

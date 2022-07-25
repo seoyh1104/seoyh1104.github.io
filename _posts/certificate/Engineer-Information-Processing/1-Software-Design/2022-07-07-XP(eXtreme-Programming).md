@@ -1,5 +1,5 @@
 ---
-title: "XP(eXtreme Programming) 기법"
+title: "[정보처리기사] XP(eXtreme Programming) 기법"
 layout : single
 categories : certificate
 toc : true

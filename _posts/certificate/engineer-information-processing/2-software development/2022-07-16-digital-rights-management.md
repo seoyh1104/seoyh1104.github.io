@@ -1,5 +1,5 @@
 ---
-title: "디지털 저작권 관리"
+title: "[정보처리기사] 디지털 저작권 관리"
 layout : single
 categories : certificate
 toc : true

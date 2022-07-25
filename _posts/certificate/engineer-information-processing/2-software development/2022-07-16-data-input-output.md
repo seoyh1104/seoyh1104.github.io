@@ -1,5 +1,5 @@
 ---
-title: "데이터 입・출력"
+title: "[정보처리기사] 데이터 입・출력"
 layout : single
 categories : certificate
 toc : true

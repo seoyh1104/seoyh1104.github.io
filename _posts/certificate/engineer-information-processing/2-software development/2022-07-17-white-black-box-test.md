@@ -1,5 +1,5 @@
 ---
-title: "화이트박스・블랙박스 테스트"
+title: "[정보처리기사] 화이트박스・블랙박스 테스트"
 layout : single
 categories : certificate
 toc : true

@@ -1,5 +1,5 @@
 ---
-title: "소프트웨어 개발의 생명주기 모형, SDLC(Software-Development-Life-Cycle)"
+title: "[정보처리기사] 소프트웨어 개발의 생명주기 모형, SDLC(Software-Development-Life-Cycle)"
 layout : single
 categories : certificate
 toc : true

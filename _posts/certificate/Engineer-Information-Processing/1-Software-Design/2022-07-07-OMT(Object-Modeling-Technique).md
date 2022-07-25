@@ -1,5 +1,5 @@
 ---
-title: "객체 모델링 기법(OMT, Object Modeling Technique)"
+title: "[정보처리기사] 객체 모델링 기법(OMT, Object Modeling Technique)"
 layout : single
 categories : certificate
 toc : true

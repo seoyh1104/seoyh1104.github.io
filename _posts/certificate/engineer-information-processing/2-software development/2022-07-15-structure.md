@@ -1,5 +1,5 @@
 ---
-title: "자료구조"
+title: "[정보처리기사] 자료구조"
 layout : single
 categories : certificate
 toc : true

@@ -1,5 +1,5 @@
 ---
-title: "인터페이스 방법 명세화"
+title: "[정보처리기사] 인터페이스 방법 명세화"
 layout : single
 categories : certificate
 toc : true

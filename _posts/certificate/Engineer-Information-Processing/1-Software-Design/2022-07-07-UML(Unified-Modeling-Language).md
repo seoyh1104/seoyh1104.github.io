@@ -1,5 +1,5 @@
 ---
-title: "UML(Unified Modeling Language)"
+title: "[정보처리기사] UML(Unified Modeling Language)"
 layout : single
 categories : certificate
 toc : true

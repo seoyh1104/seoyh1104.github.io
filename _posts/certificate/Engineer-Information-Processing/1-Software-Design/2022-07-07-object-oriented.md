@@ -1,5 +1,5 @@
 ---
-title: "객체 지향(Object-Oriented)"
+title: "[정보처리기사] 객체 지향(Object-Oriented)"
 layout : single
 categories : certificate
 toc : true
