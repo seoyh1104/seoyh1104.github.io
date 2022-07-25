@@ -1,13 +1,13 @@
 ---
-title:  "jekyll 로컬 서버 실행하기"
+title:  "[Github Blog] Jekyll 로컬 서버 실행하기"
 layout : single
-categories : jekyll
+categories : Github
 toc : false
 toc_label: "Table of Contents"
 toc_icon: "bars"
 toc_sticky: true
 author_profile : false
-tag : [jekyll]
+tag : [Github, Jekyll]
 sidebar :
     nav : "docs"
 ---

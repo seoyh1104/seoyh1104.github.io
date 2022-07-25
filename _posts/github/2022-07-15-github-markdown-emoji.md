@@ -1,18 +1,16 @@
 ---
-title: "Jekyll 이모지 추가하기"
+title: "[Github Blog] Jekyll 이모지 추가하기 (Github Markdown Emoji)"
 layout : single
-categories : Markdown
+categories : Github
 toc : true
 toc_label: "Table of Contents"
 toc_icon: "bars"
 toc_sticky: true
 author_profile : false
-tag : [Markdown, Jekyll]
+tag : [Github, Jekyll]
 sidebar :
     nav : "docs"
 ---
-
-# Jekyll 이모지 추가하기 (Github Markdown Emoji)
 
 ## Gemfile
 
