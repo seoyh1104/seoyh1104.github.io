@@ -30,14 +30,14 @@ main:
 docs:
   - title : "Certificate"
     children : 
-      - title : "정보처리기사 필기"
+      - title : "정보처리기사"
         url : /certificate/Engineer-Information-Processing
-  - title : "Jekyll"
+  - title : "Github"
     children :
       - title : "Start Local Jekyll Server"
-        url : /jekyll/start-local-jekyll-server
-      - title : "Jekyll Emoji"
-        url : /markdown/github-markdown-emoji
+        url : /github/start-local-jekyll-server
+      - title : "Github Blog"
+        url : /categories/Github
   - title : "지금은 404"
     children : 
       - title : "Markdown"
