@@ -62,5 +62,5 @@ sidebar :
 1. [함께 공부해요, 2022 정보처리기사 필기 총정리(시나공, 수제비)](https://m.blog.naver.com/wook2124/222102990691){:target="_blank"}
 2. [2022 이기적 정보처리기사 필기 기본서](https://www.youngjin.com/book/book_detail.asp?prod_cd=9788931465303&seq=6958&cate_cd=3&child_cate_cd=139&goPage=1&orderByCd=1&searchType=Y&keyword1=%C1%A4%BA%B8%C3%B3%B8%AE%B1%E2%BB%E7%20%C7%CA%B1%E2){:target="_blank"}
 
-### 결과
+## 결과
 필기 합격
