@@ -1,5 +1,5 @@
 ---
-title:  "[Github Blog] Jekyll 로컬 서버 실행하기"
+title: "[Github Blog] Jekyll 로컬 서버 실행하기"
 layout : single
 categories : Github
 toc : false
