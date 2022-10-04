@@ -1,5 +1,5 @@
 ---
-title: "[일본어] 회사 매출관련(회계) 업무용어 정리"
+title: "[일본어] 매출관련 회계 업무용어 정리"
 layout: single
 toc: true
 toc_label: "Table of Contents"
