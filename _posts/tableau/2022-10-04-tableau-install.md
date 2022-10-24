@@ -12,16 +12,16 @@ sidebar :
     nav : "docs"
 ---
 
-1. Tableau 평가판 신청  
+## Tableau 평가판 신청
 아래 링크를 클릭하여 태블로 14일 무료 평가판을 다운로드 한다.
 - [https://www.tableau.com/ko-kr/products/desktop/download](https://www.tableau.com/ko-kr/products/desktop/download){:target="_blank"}
 - 설치파일 : 544MB
 ![images](/images/2022-10-04-tableau/tableau1.png)
 
-2. 다운로드  
+## 다운로드
 - 다운로드한 파일을 클릭하여 열기
 ![images](/images/2022-10-04-tableau/tableau2.png)
-- 동의함 체크 후 설치
+- 동의함 체크 후 설치  
 ![images](/images/2022-10-04-tableau/tableau3.png)
 - 설치 진행  
 ![images](/images/2022-10-04-tableau/tableau4.png)
