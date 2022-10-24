@@ -6,7 +6,7 @@ toc_label: "Table of Contents"
 toc_icon: "bars"
 toc_sticky: true
 author_profile: false
-categories: News
+categories: Record
 tag: [News]
 sidebar:
   nav: "docs"
