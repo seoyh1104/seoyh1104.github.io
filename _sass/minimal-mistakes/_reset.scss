@@ -9,21 +9,21 @@ html {
   box-sizing: border-box;
   background-color: $background-color;
   /* Update 2022-07-07 Yuhui Seo */
-  font-size: 14px;/* font-size: 16px; */
+  font-size: 14px; // Default font-size: 16px;
 
   @include breakpoint($medium) {
     /* Update 2022-07-07 Yuhui Seo */
-    font-size: 16px; /* font-size: 18px; */
+    font-size: 16px; // Default font-size: 18px;
   }
 
   @include breakpoint($large) {
     /* Update 2022-07-07 Yuhui Seo */
-    font-size: 16px; /* font-size: 20px; */
+    font-size: 16px; // Default font-size: 20px;
   }
 
   @include breakpoint($x-large) {
     /* Update 2022-07-07 Yuhui Seo */
-    font-size: 18px; /* font-size: 22px; */
+    font-size: 18px; // Default font-size: 22px;
   }
 
   -webkit-text-size-adjust: 100%;
