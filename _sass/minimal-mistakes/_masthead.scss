@@ -15,6 +15,8 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
+    /* Update 2022-10-24 Yuhui Seo 상단바 패딩 조절 */
+    /* padding: 1em; */
     padding: 1em;
     max-width: 100%;
     display: -webkit-box;
@@ -24,6 +26,9 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     font-family: $sans-serif-narrow;
+    /* Update 2022-10-24 Yuhui Seo 상단바 폰트 설정 */
+    // font-size: $type-size-5;
+    // font-weight: bold;
 
     @include breakpoint($x-large) {
       max-width: $max-width;
