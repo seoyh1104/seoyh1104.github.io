@@ -12,7 +12,7 @@ sidebar :
     nav : "docs"
 ---
 
-## Create Back to Top Button
+# Create Back to Top Button
 Jekyll과 같은 정적 웹사이트에서도 잘 작동하는 [🔗vanilla-back-to-top](https://github.com/vfeskov/vanilla-back-to-top){:target="_blank"}을 적용해보자
 
 ## ⚙️ 설치 방법
