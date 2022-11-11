@@ -12,8 +12,10 @@ main:
     url: index.html
   - title: "About"
     url: /about/
-  - title: "By Year"
+  - title: "Yearly"
     url: /year-archive/
+  - title: "Monthly"
+    url: /month-archive/
   - title: "Category"
     url: /categories/
   - title: "Tag"
@@ -32,19 +34,43 @@ docs:
     children : 
       - title : "정보처리기사"
         url : /certificate/Engineer-Information-Processing
-  - title : "Github"
+  
+  - title : "💻 Programming"
     children :
-      - title : "Start Local Jekyll Server"
-        url : /github/start-local-jekyll-server
-      - title : "Github Blog"
-        url : /categories/Github
-  - title : "지금은 404"
-    children : 
+      - title : "Algorithm"
+      - title : "Git"
+        url : /categories/Git
+      - title : "Github"
+        url : /categories/github
       - title : "Markdown"
-        url : /404.html
-  - title : ":cherries:"
-    children : 
-      - title : "Category"
-        url : /categories/
-      - title : "Tag"
-        url: /tags/
+      - title : "Java"
+      - title : "Python"
+      - title : "html5"
+      - title : "css3"
+  
+  - title : "Database"
+    children :
+      - title : "MSSQL"
+      - title : "Oracle"
+  
+  - title : "Server"
+    children :
+      - title : "Docker"
+      - title : "Apache"
+      - title : "IIS"
+  
+  - title : "CI/CD"
+    children :
+      - title : "Jenkins"
+  
+  - title : "Etc"
+    children :
+      - title : "OpenApi"
+      - title : "Tableau"
+      - title : "Slack"
+      - title : "Cmd"
+      - title : "Record"
+  
+  - title : "Japanese"
+    children :
+      - title : "업무용어"
