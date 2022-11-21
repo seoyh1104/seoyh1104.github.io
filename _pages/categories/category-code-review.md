@@ -8,5 +8,5 @@ sidebar :
     nav : "docs"
 ---
 
-{% assign posts = site.categories.['Code Review'] %}
+{% assign posts = site.categories['Code Review'] %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
