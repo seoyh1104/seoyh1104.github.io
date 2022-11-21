@@ -1,0 +1,124 @@
+{% assign navigation = site.data.navigation[include.nav] %}
+{% comment %} Add 2022-11-03 Yuhui Seo 전체 글 수 표시 {% endcomment %}
+{% assign sum = site.posts | size %}
+
+<nav class="nav__list">
+  {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
+  {% comment %} Add 2022-11-03 Yuhui Seo 전체 글 수 표시 {% endcomment %}
+  <span style="font-size:11pt"> 📂 전체 글 수 {{sum}}개</span>
+    
+    {% comment %} Update 2022-11-21 Yuhui Seo 카테고리별 사이드바 적용
+    <ul class="nav__items">
+    {% for nav in navigation %}
+      <li>
+        {% if nav.url %}
+          <a href="{{ nav.url | relative_url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
+        {% else %}
+          <span class="nav__sub-title">{{ nav.title }}</span>
+        {% endif %}
+
+        {% if nav.children != null %}
+        <ul>
+          {% for child in nav.children %}
+            <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a></li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+  {% endcomment %}
+
+  <span class="nav__sub-title">CERTIFICATE</span>
+  <ul>
+      {% for category in site.categories %}
+        {% if category[0] == "Certificate" %}
+          <li><a href="/categories/certificate" class=""> 정보처리기사 ({{category[1].size}})</a></li>
+        {% endif %}
+      {% endfor %}
+  </ul>
+  <span class="nav__sub-title">💻PROGRAMMING</span>
+    <ul>
+    {% for category in site.categories %}
+      {% if category[0] == "Git" %}
+        <li><a href="/categories/git" class=""> Git ({{category[1].size}})</a></li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+    <ul>
+        {% for category in site.categories %}
+          {% if category[0] == "Github" %}
+            <li><a href="/categories/github" class=""> Github ({{category[1].size}})</a></li>
+          {% endif %}
+        {% endfor %}
+    </ul>
+    <ul>
+      {% for category in site.categories %}
+        {% if category[0] == "Code Review" %}
+          <li><a href="/categories/code-review" class=""> Code Review ({{category[1].size}})</a></li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+  <span class="nav__sub-title">DATABASE</span>
+    <ul>
+    {% for category in site.categories %}
+      {% if category[0] == "MSSQL" %}
+        <li><a href="/categories/mssql" class=""> MSSQL ({{category[1].size}})</a></li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  <span class="nav__sub-title">ETC</span>
+    <ul>
+    {% for category in site.categories %}
+      {% if category[0] == "Slack" %}
+        <li><a href="/categories/slack" class=""> Slack ({{category[1].size}})</a></li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+    <ul>
+      {% for category in site.categories %}
+        {% if category[0] == "Tableau" %}
+          <li><a href="/categories/tableau" class=""> Tableau ({{category[1].size}})</a></li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+    <ul>
+    {% for category in site.categories %}
+      {% if category[0] == "Open Api" %}
+        <li><a href="/categories/open-api" class=""> Open Api ({{category[1].size}})</a></li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+    <ul>
+      {% for category in site.categories %}
+        {% if category[0] == "Record" %}
+          <li><a href="/categories/record" class=""> 기록하기 ({{category[1].size}})</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <ul>
+      {% for category in site.categories %}
+        {% if category[0] == "ETC" %}
+          <li><a href="/categories/etc" class=""> 기타 ({{category[1].size}})</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  <span class="nav__sub-title">CI/CD</span>
+    <ul>
+    {% for category in site.categories %}
+      {% if category[0] == "Jenkins" %}
+        <li><a href="/categories/jenkins" class=""> Jenkins ({{category[1].size}})</a></li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  <span class="nav__sub-title">JAPANESE</span>
+    <ul>
+    {% for category in site.categories %}
+      {% if category[0] == "Japanese" %}
+        <li><a href="/categories/japanese" class=""> 업무용어 ({{category[1].size}})</a></li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+</nav>
