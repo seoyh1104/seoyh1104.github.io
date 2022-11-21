@@ -51,3 +51,7 @@ SET @TEXT = REPLACE(REPLACE(@TEXT, CHAR(13), 'CHAR(13)'), CHAR(10), 'CHAR(10)')
 
 PRINT @TEXT
 ```
+
+### 관련 포스트 링크
+위 문자열에서 -(하이픈)을 기준으로 행 분리하기
+- [[MSSQL] 문자열 파싱 STRING_SPLIT 함수, 구분자로 행 분리](/mssql/mssql-string_split){:target="_blank"}
