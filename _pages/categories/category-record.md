@@ -1,11 +1,9 @@
 ---
 title: "기록"
 layout: archive
-permalink: categories/Record
+permalink: categories/record
 author_profile: false
 sidebar_main: true
-sidebar :
-    nav : "docs"
 ---
 
 {% assign posts = site.categories.Record %}
