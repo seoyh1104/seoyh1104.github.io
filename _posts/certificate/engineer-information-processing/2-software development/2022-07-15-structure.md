@@ -1,7 +1,7 @@
 ---
 title: "[정보처리기사] 자료구조"
 layout : single
-categories : certificate
+categories : Certificate
 toc : true
 toc_label: "Table of Contents"
 toc_icon: "bars"

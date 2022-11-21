@@ -1,7 +1,7 @@
 ---
 title: "[정보처리기사] 디지털 저작권 관리"
 layout : single
-categories : certificate
+categories : Certificate
 toc : true
 toc_label: "Table of Contents"
 toc_icon: "bars"

@@ -1,7 +1,7 @@
 ---
 title: "[정보처리기사] 디자인 패턴(Design Pattern)"
 layout : single
-categories : certificate
+categories : Certificate
 toc : true
 toc_label: "Table of Contents"
 toc_icon: "bars"

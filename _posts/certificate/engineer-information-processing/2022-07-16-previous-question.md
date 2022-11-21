@@ -1,13 +1,13 @@
 ---
 title: "[정보처리기사] 필기 기출문제 정리"
 layout : single
-categories : certificate
+categories : Certificate
 toc : true
 toc_label: "Table of Contents"
 toc_icon: "bars"
 toc_sticky: true
 author_profile : false
-tag : [Engineer Information Processing, certificate, 정보처리기사]
+tag : [정보처리기사]
 sidebar :
     nav : "docs"
 ---

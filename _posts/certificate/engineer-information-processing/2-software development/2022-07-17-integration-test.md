@@ -1,7 +1,7 @@
 ---
 title: "[정보처리기사] 통합 테스트"
 layout : single
-categories : certificate
+categories : Certificate
 toc : true
 toc_label: "Table of Contents"
 toc_icon: "bars"

@@ -1,7 +1,7 @@
 ---
 title: "[정보처리기사] 상향식 비용 산정 기법"
 layout : single
-categories : certificate
+categories : Certificate
 toc : true
 toc_label: "Table of Contents"
 toc_icon: "bars"
