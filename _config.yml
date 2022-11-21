@@ -288,10 +288,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false # Update 2022-07-15 Yuhui Seo |읽는데 걸리는 소요시간 표시
+      read_time: false # Update 2022-07-15 Yuhui Seo 읽는데 걸리는 소요시간 표시
       comments: true
       share: true
       related: true
-      show_date : true # Add 2022-07-07 Yuhui Seo |포스팅 날짜 표시
-      sidebar_main: true
+      show_date : true # Add 2022-07-07 Yuhui Seo 포스팅 날짜 표시
+      sidebar_main: true # Add 2022-11-03 Yuhui Seo 전체 페이지에서 사이드바 활성화
 date_format : "%Y-%m-%d" # Add 2022-07-07 Yuhui Seo
