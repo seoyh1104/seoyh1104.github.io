@@ -1,11 +1,9 @@
 ---
 title: "Open Api"
 layout: archive
-permalink: categories/Open-Api
-author_profile: false
+permalink: categories/open-api
+author_profile: true
 sidebar_main: true
-sidebar :
-    nav : "docs"
 ---
 
 {% assign posts = site.categories['Open Api'] %}

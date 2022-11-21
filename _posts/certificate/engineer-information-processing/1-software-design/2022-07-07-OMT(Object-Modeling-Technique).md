@@ -1,15 +1,13 @@
 ---
 title: "[정보처리기사] 객체 모델링 기법(OMT, Object Modeling Technique)"
-layout : single
-categories : Certificate
-toc : true
-toc_label: "Table of Contents"
-toc_icon: "bars"
+layout: single
+categories: Certificate
+tag: [정보처리기사]
+toc: true
 toc_sticky: true
-author_profile : false
-tag : [정보처리기사]
-sidebar :
-    nav : "docs"
+toc_icon: "bars"
+toc_label: "Table of Contents"
+author_profile: false
 ---
 
 ## 객체 모델링 기법 / 럼바우의 객체 지향 분석 ★★

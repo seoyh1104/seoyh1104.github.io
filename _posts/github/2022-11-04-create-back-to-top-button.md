@@ -1,15 +1,13 @@
 ---
-title: "[Github] 블로그 맨 위로 가기(Go to top) 버튼 만들기"
-layout : single
-categories : Git
-toc : true
-toc_label: "Table of Contents"
-toc_icon: "bars"
+title: "[Github Blog] 블로그 맨 위로 가기(Go to top) 버튼 만들기"
+layout: single
+categories: Github
+tag: [Github]
+toc: true
 toc_sticky: true
-author_profile : false
-tag : [Github]
-sidebar :
-    nav : "docs"
+toc_icon: "bars"
+toc_label: "Table of Contents"
+author_profile: false
 ---
 
 # Create Back to Top Button

@@ -1,15 +1,13 @@
 ---
 title: "[정보처리기사] 테스트 케이스・테스트 시나리오・테스트 오라클・테스트 하네스"
-layout : single
-categories : Certificate
-toc : true
-toc_label: "Table of Contents"
-toc_icon: "bars"
+layout: single
+categories: Certificate
+tag: [정보처리기사]
+toc: true
 toc_sticky: true
-author_profile : false
-tag : [정보처리기사]
-sidebar :
-    nav : "docs"
+toc_icon: "bars"
+toc_label: "Table of Contents"
+author_profile: false
 ---
 
 ## 테스트 케이스(Test Case)

@@ -1,15 +1,13 @@
 ---
 title: "[MSSQL] 테이블 생성 및 삭제, 테이블 명 변경 CREATE TABLE・DROP TABLE, SP_RENAME"
-layout : single
-toc : true
-toc_label: "Table of Contents"
-toc_icon: "bars"
+layout: single
+categories: MSSQL
+tag: [MSSQL]
+toc: true
 toc_sticky: true
-author_profile : false
-categories : MSSQL
-tag : [MSSQL]
-sidebar :
-    nav : "docs"
+toc_icon: "bars"
+toc_label: "Table of Contents"
+author_profile: false
 ---
 
 ## 테이블 생성

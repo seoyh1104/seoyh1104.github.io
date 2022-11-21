@@ -1,16 +1,15 @@
 ---
 title: "[Github Blog] jekyll에러 Liquid Exception invalid byte sequence in UTF-8 해결방법"
-layout : single
-categories : Github
-toc : false
-toc_label: "Table of Contents"
-toc_icon: "bars"
+layout: single
+categories: Github
+tag: [Github, Jekyll]
+toc: true
 toc_sticky: true
-author_profile : false
-tag : [Github, Jekyll]
-sidebar :
-    nav : "docs"
+toc_icon: "bars"
+toc_label: "Table of Contents"
+author_profile: false
 ---
+
 ## 에러
 ### Ruby
 ```ruby

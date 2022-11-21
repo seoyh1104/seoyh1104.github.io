@@ -2,7 +2,7 @@
 title: "기록"
 layout: archive
 permalink: categories/record
-author_profile: false
+author_profile: true
 sidebar_main: true
 ---
 

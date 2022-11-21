@@ -1,15 +1,13 @@
 ---
 title: "[Security] Google Data Center Security"
 layout: single
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "bars"
-toc_sticky: true
-author_profile: false
 categories: Record
 tag: [News]
-sidebar:
-  nav: "docs"
+toc: true
+toc_sticky: true
+toc_icon: "bars"
+toc_label: "Table of Contents"
+author_profile: false
 ---
 
 ## Google Data Center Security

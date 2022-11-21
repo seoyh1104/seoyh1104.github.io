@@ -1,15 +1,13 @@
 ---
 title: "[정보처리기사] 데이터 입・출력"
-layout : single
-categories : Certificate
-toc : true
-toc_label: "Table of Contents"
-toc_icon: "bars"
+layout: single
+categories: Certificate
+tag: [정보처리기사]
+toc: true
 toc_sticky: true
-author_profile : false
-tag : [정보처리기사]
-sidebar :
-    nav : "docs"
+toc_icon: "bars"
+toc_label: "Table of Contents"
+author_profile: false
 ---
 
 ## SQL(Structured Query Language)

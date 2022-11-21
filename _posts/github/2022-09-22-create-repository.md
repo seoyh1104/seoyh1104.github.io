@@ -1,15 +1,13 @@
 ---
 title: "[Github] Create repository 원격저장소 만들기 "
-layout : single
-categories : Git
-toc : true
-toc_label: "Table of Contents"
-toc_icon: "bars"
+layout: single
+categories: Github
+tag: [Github]
+toc: true
 toc_sticky: true
-author_profile : false
-tag : [Git]
-sidebar :
-    nav : "docs"
+toc_icon: "bars"
+toc_label: "Table of Contents"
+author_profile: false
 ---
 
 ## 원격저장소 만들기

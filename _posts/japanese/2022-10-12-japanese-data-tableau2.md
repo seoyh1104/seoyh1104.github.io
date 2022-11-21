@@ -1,20 +1,18 @@
 ---
 title: "[일본어] 데이터 시각화(tableau) 관련 업무용어 정리2"
 layout: single
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "bars"
-toc_sticky: true
-author_profile: false
 categories: Japanese
 tag: [Japanese, tableau]
-sidebar:
-  nav: "docs"
+toc: true
+toc_sticky: true
+toc_icon: "bars"
+toc_label: "Table of Contents"
+author_profile: false
 ---
 
 ## 용어
 ### 명사
-1. 左右（さゆう）:좌우, 곁, 측근
+1. 左右（さゆう）: 좌우, 곁, 측근
 2. 片方（かたほう）: 한쪽
 3. 演習（えんしゅう）: 연습
 4. 並列棒（へいれつぼう）グラフ : 막대형 그래프

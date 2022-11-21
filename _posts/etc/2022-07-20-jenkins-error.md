@@ -1,15 +1,13 @@
 ---
 title: "[Jenkins] 젠킨스(Jenkins) 에러"
-layout : single
-categories : Jenkins
-toc : true
-toc_label: "Table of Contents"
-toc_icon: "bars"
+layout: single
+categories: Jenkins
+tag: [Jenkins]
+toc: true
 toc_sticky: true
-author_profile : false
-tag : [Jenkins]
-sidebar :
-    nav : "docs"
+toc_icon: "bars"
+toc_label: "Table of Contents"
+author_profile: false
 ---
 
 ## 에러

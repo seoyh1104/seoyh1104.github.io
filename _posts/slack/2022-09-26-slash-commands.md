@@ -1,15 +1,13 @@
 ---
 title: "[Slack] Slash Commands 슬래시 커맨드 만들기"
-layout : single
-toc : false
-toc_label: "Table of Contents"
-toc_icon: "bars"
+layout: single
+categories: Slack
+tag: [Slack]
+toc: true
 toc_sticky: true
-author_profile : false
-categories : Slack
-tag : [Slack]
-sidebar :
-    nav : "docs"
+toc_icon: "bars"
+toc_label: "Table of Contents"
+author_profile: false
 ---
 
 ## 슬래시 커맨드 만들기

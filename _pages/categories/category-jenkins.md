@@ -1,11 +1,9 @@
 ---
 title: "Jenkins"
 layout: archive
-permalink: categories/Jenkins
-author_profile: false
+permalink: categories/jenkins
+author_profile: true
 sidebar_main: true
-sidebar :
-    nav : "docs"
 ---
 
 {% assign posts = site.categories.Jenkins %}

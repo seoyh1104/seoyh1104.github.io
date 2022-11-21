@@ -1,15 +1,13 @@
 ---
 title: "[Tableau] 태블로 설치하기"
-layout : single
-toc : true
-toc_label: "Table of Contents"
-toc_icon: "bars"
+layout: single
+categories: Tableau
+tag: [Tableau]
+toc: true
 toc_sticky: true
-author_profile : false
-categories : Tableau
-tag : [Tableau]
-sidebar :
-    nav : "docs"
+toc_icon: "bars"
+toc_label: "Table of Contents"
+author_profile: false
 ---
 
 ## Tableau 평가판 신청

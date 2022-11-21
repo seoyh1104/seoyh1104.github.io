@@ -1,15 +1,13 @@
 ---
 title: "[정보처리기사] 소프트웨어 개발의 생명주기 모형, SDLC(Software-Development-Life-Cycle)"
-layout : single
-categories : Certificate
-toc : true
-toc_label: "Table of Contents"
-toc_icon: "bars"
+layout: single
+categories: Certificate
+tag: [정보처리기사]
+toc: true
 toc_sticky: true
-author_profile : false
-tag : [정보처리기사]
-sidebar :
-    nav : "docs"
+toc_icon: "bars"
+toc_label: "Table of Contents"
+author_profile: false
 ---
 
 ## 폭포수 모형(Waterfall Model) ★

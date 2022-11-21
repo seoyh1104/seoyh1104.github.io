@@ -1,15 +1,13 @@
 ---
 title: "[일본어] 매출관련 회계 업무용어 정리"
 layout: single
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "bars"
-toc_sticky: true
-author_profile: false
 categories: Japanese
 tag: [Japanese]
-sidebar:
-  nav: "docs"
+toc: true
+toc_sticky: true
+toc_icon: "bars"
+toc_label: "Table of Contents"
+author_profile: false
 ---
 
 ## 용어

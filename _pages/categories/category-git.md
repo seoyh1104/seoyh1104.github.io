@@ -1,11 +1,9 @@
 ---
 title: "Git"
 layout: archive
-permalink: categories/Git
-author_profile: false
+permalink: categories/git
+author_profile: true
 sidebar_main: true
-sidebar :
-    nav : "docs"
 ---
 
 {% assign posts = site.categories.Git %}

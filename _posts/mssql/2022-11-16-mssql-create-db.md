@@ -1,15 +1,13 @@
 ---
 title: "[MSSQL] 데이터베이스(DB) 생성하기"
-layout : single
-toc : true
-toc_label: "Table of Contents"
-toc_icon: "bars"
+layout: single
+categories: MSSQL
+tag: [MSSQL]
+toc: true
 toc_sticky: true
-author_profile : false
-categories : MSSQL
-tag : [MSSQL]
-sidebar :
-    nav : "docs"
+toc_icon: "bars"
+toc_label: "Table of Contents"
+author_profile: false
 ---
 
 # DB 생성하기

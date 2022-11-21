@@ -1,11 +1,9 @@
 ---
 title: "Code Review"
 layout: archive
-permalink: categories/Code-Review
-author_profile: false
+permalink: categories/code-review
+author_profile: true
 sidebar_main: true
-sidebar :
-    nav : "docs"
 ---
 
 {% assign posts = site.categories['Code Review'] %}

@@ -1,11 +1,9 @@
 ---
 title: "Tableau"
 layout: archive
-permalink: categories/Tableau
-author_profile: false
+permalink: categories/tableau
+author_profile: true
 sidebar_main: true
-sidebar :
-    nav : "docs"
 ---
 
 {% assign posts = site.categories.Tableau %}

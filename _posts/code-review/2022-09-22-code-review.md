@@ -1,15 +1,13 @@
 ---
 title: "[Code Review] 쿠팡 벤더플렉스 로케이션 출력 자동화 소프트웨어 개발"
-layout : single
-categories : ['Code Review']
-toc : true
-toc_label: "Table of Contents"
-toc_icon: "bars"
+layout: single
+categories: ['Code Review']
+tag: [Code Review]
+toc: true
 toc_sticky: true
-author_profile : false
-tag : [Code Review]
-sidebar :
-    nav : "docs"
+toc_icon: "bars"
+toc_label: "Table of Contents"
+author_profile: false
 ---
 
 ## 쿠팡 벤더플렉스 로케이션 출력 자동화 소프트웨어 개발

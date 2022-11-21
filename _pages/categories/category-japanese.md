@@ -1,11 +1,9 @@
 ---
 title: "Japanese"
 layout: archive
-permalink: categories/Japanese
-author_profile: false
+permalink: categories/japanese
+author_profile: true
 sidebar_main: true
-sidebar :
-    nav : "docs"
 ---
 
 {% assign posts = site.categories.Japanese %}

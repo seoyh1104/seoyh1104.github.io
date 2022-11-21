@@ -1,11 +1,9 @@
 ---
 title: "MSSQL"
 layout: archive
-permalink: categories/MSSQL
-author_profile: false
+permalink: categories/mssql
+author_profile: true
 sidebar_main: true
-sidebar :
-    nav : "docs"
 ---
 
 {% assign posts = site.categories.MSSQL %}

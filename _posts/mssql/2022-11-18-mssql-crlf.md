@@ -1,15 +1,13 @@
 ---
 title: "[MSSQL] 개행문자 CRLF, CHAR(13) + CHAR(10)"
-layout : single
-toc : true
-toc_label: "Table of Contents"
-toc_icon: "bars"
+layout: single
+categories: MSSQL
+tag: [MSSQL]
+toc: true
 toc_sticky: true
-author_profile : false
-categories : MSSQL
-tag : [MSSQL]
-sidebar :
-    nav : "docs"
+toc_icon: "bars"
+toc_label: "Table of Contents"
+author_profile: false
 ---
 
 # 개행문자

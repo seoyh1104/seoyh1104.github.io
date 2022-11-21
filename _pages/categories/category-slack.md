@@ -1,8 +1,8 @@
 ---
 title: "Slack"
 layout: archive
-permalink: categories/Slack
-author_profile: false
+permalink: categories/slack
+author_profile: true
 sidebar_main: true
 ---
 

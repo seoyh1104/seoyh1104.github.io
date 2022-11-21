@@ -1,15 +1,13 @@
 ---
 title: "[MSSQL] 문자열 파싱 STRING_SPLIT 함수, 구분자로 행 분리"
-layout : single
-toc : true
-toc_label: "Table of Contents"
-toc_icon: "bars"
+layout: single
+categories: MSSQL
+tag: [MSSQL]
+toc: true
 toc_sticky: true
-author_profile : false
-categories : MSSQL
-tag : [MSSQL]
-sidebar :
-    nav : "docs"
+toc_icon: "bars"
+toc_label: "Table of Contents"
+author_profile: false
 ---
 
 # string_split 함수란?
