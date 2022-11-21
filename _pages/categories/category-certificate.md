@@ -1,11 +1,9 @@
 ---
 title: "Certificate"
 layout: archive
-permalink: categories/Certificate
-author_profile: false
+permalink: categories/certificate
+author_profile: true
 sidebar_main: true
-sidebar :
-    nav : "docs"
 ---
 
 ---
