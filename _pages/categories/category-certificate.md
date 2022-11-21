@@ -7,7 +7,7 @@ sidebar_main: true
 ---
 
 ---
-# ☆[[정보처리기사] 필기 정리](/Certificate/Engineer-Information-Processing/)
+# ☆[[정보처리기사] 필기 정리](/certificate/engineer-information-processing/)
 ---
 
 {% assign posts = site.categories.Certificate %}

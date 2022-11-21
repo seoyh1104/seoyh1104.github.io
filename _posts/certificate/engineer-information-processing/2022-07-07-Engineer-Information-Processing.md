@@ -11,35 +11,35 @@ author_profile: false
 ---
 
 ## 1과목 : 소프트웨어 설계(20문제)
-### [소프트웨어 개발의 생명주기 모형, SDLC(Software-Development-Life-Cycle) ★★](/Certificate/SDLC(Software-Development-Life-Cycle))
-### [XP(eXtreme Programming) 기법 ★★](/Certificate/XP(eXtreme-Programming))
-### [UML(Unified Modeling Language) ★★★](/Certificate/UML(Unified-Modeling-Language))
-### [OSI 7계층(Layer) ★★](/Certificate/OSI-7Layer)
-### [객체 지향(Object-Oriented) ★★](/Certificate/Object-Oriented)
-### [객체 모델링 기법(OMT) / 럼바우의 객체 지향 분석 ★★](/Certificate/OMT(Object-Modeling-Technique))
-### [결합도(Coupling) ★★](/Certificate/Coupling)
-### [응집도(Cohesion) ★★](/Certificate/Cohesion)
-### [코드(Code) ★★](/Certificate/Code)
-### [디자인 패턴(Design Pattern) ★★](/Certificate/Design-Pattern)
-### [인터페이스 방법 명세화 ★★](/Certificate/Interface-Method-Specification)
-### [미들웨어 솔루션 명세 ★★](/Certificate/Middleware)
+### [소프트웨어 개발의 생명주기 모형, SDLC(Software-Development-Life-Cycle) ★★](/certificate/SDLC(Software-Development-Life-Cycle))
+### [XP(eXtreme Programming) 기법 ★★](/certificate/XP(eXtreme-Programming))
+### [UML(Unified Modeling Language) ★★★](/certificate/UML(Unified-Modeling-Language))
+### [OSI 7계층(Layer) ★★](/certificate/OSI-7Layer)
+### [객체 지향(Object-Oriented) ★★](/certificate/Object-Oriented)
+### [객체 모델링 기법(OMT) / 럼바우의 객체 지향 분석 ★★](/certificate/OMT(Object-Modeling-Technique))
+### [결합도(Coupling) ★★](/certificate/Coupling)
+### [응집도(Cohesion) ★★](/certificate/Cohesion)
+### [코드(Code) ★★](/certificate/Code)
+### [디자인 패턴(Design Pattern) ★★](/certificate/Design-Pattern)
+### [인터페이스 방법 명세화 ★★](/certificate/Interface-Method-Specification)
+### [미들웨어 솔루션 명세 ★★](/certificate/Middleware)
 
 ---
 
 ## 2과목 : 소프트웨어 개발(20문제)
-### [자료구조 ★★](/Certificate/structure) 
-### [데이터 입・출력 ★★](/Certificate/data-input-output) 
-### [절차형 SQL ★](/Certificate/procedural-sql)
-### [개발 지원 도구 ★★](/Certificate/development-support-tool)
-### [디지털 저작권 관리 ★★](/Certificate/digital-rights-management)
-### [형상 관리 ★★](/Certificate/configuration-management)
-### [버전 관리 도구 ★★](/Certificate/version-managing-tool)
-### [애플리케이션 테스트 ★★](/Certificate/application-test)
-### [애플리케이션 테스트의 분류 ★★](/Certificate/application-test2)
-### [화이트박스・블랙박스 테스트  ★★★](/Certificate/white-black-box-test)
-### [개발 단계에 따른 애플리케이션 테스트 ★](/Certificate/application-test3)
-### [통합 테스트 ★★](/Certificate/integration-test)
-### [테스트 케이스 | 테스트 시나리오 | 테스트 오라클 | 테스트 하네스 ★★](/Certificate/application-test4)
+### [자료구조 ★★](/certificate/structure) 
+### [데이터 입・출력 ★★](/certificate/data-input-output) 
+### [절차형 SQL ★](/certificate/procedural-sql)
+### [개발 지원 도구 ★★](/certificate/development-support-tool)
+### [디지털 저작권 관리 ★★](/certificate/digital-rights-management)
+### [형상 관리 ★★](/certificate/configuration-management)
+### [버전 관리 도구 ★★](/certificate/version-managing-tool)
+### [애플리케이션 테스트 ★★](/certificate/application-test)
+### [애플리케이션 테스트의 분류 ★★](/certificate/application-test2)
+### [화이트박스・블랙박스 테스트  ★★★](/certificate/white-black-box-test)
+### [개발 단계에 따른 애플리케이션 테스트 ★](/certificate/application-test3)
+### [통합 테스트 ★★](/certificate/integration-test)
+### [테스트 케이스 | 테스트 시나리오 | 테스트 오라클 | 테스트 하네스 ★★](/certificate/application-test4)
 
 
 ## 3과목 : 데이터베이스 구축(20문제)
@@ -49,11 +49,11 @@ author_profile: false
 
 
 ## 5과목 : 정보시스템 구축 관리(20문제)
-### [상향식 비용 산정 기법 ★★★](/Certificate/cost-calculation-technique)
+### [상향식 비용 산정 기법 ★★★](/certificate/cost-calculation-technique)
 
 
 ## 기출문제
-### [정보처리기사 필기 기출문제 정리](/Certificate/previous-question)
+### [정보처리기사 필기 기출문제 정리](/certificate/previous-question)
 
 
 ## Reference
