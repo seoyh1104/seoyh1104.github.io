@@ -61,7 +61,7 @@
         {% endif %}
       {% endfor %}
       </ul>
-  <span class="nav__sub-title">SERVER</span>
+  <span class="nav__sub-title">DATABASE</span>
     <ul>
     {% for category in site.categories %}
       {% if category[0] == "MSSQL" %}
