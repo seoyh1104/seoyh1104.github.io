@@ -4,8 +4,6 @@ layout: archive
 permalink: categories/Slack
 author_profile: false
 sidebar_main: true
-sidebar :
-    nav : "docs"
 ---
 
 {% assign posts = site.categories.Slack %}
