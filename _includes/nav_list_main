@@ -52,6 +52,13 @@
     <span class="nav__sub-title">ETC</span>
       <ul>
         {% for category in site.categories %}
+          {% if category[0] == "Open Api" %}
+            <li><a href="/categories/open-api" class=""> Open Api ({{category[1].size}})</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      <ul>
+        {% for category in site.categories %}
           {% if category[0] == "Slack" %}
             <li><a href="/categories/slack" class=""> Slack ({{category[1].size}})</a></li>
           {% endif %}
@@ -64,13 +71,6 @@
           {% endif %}
         {% endfor %}
         </ul>
-      <ul>
-        {% for category in site.categories %}
-          {% if category[0] == "Open Api" %}
-            <li><a href="/categories/open-api" class=""> Open Api ({{category[1].size}})</a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
       <ul>
         {% for category in site.categories %}
           {% if category[0] == "Record" %}
