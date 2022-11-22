@@ -259,16 +259,16 @@ tag_archive:
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # Update 2022-07-07 Yuhui Seo
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
 
 
 # HTML Compression
@@ -294,4 +294,4 @@ defaults:
       related: true
       show_date : true # Add 2022-07-07 Yuhui Seo 포스팅 날짜 표시
       sidebar_main: true # Add 2022-11-03 Yuhui Seo 전체 페이지에서 사이드바 활성화
-date_format : "%Y-%m-%d" # Add 2022-07-07 Yuhui Seo
+      date_format : "%Y-%m-%d" # Add 2022-07-07 Yuhui Seo
