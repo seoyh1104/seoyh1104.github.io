@@ -1,6 +1,6 @@
 ---
 title: "[MSSQL] 문자열 파싱 STRING_SPLIT 함수, 구분자로 행 분리"
-layout: single
+excerpt: "문자열 파싱 STRING_SPLIT 함수란? 사용 방법과 예시 및 응용한 소스코드"
 categories: MSSQL
 tag: [MSSQL]
 toc: true

@@ -1,6 +1,6 @@
 ---
 title: "[Github Blog] 블로그 맨 위로 가기(Go to top) 버튼 만들기"
-layout: single
+excerpt: "🔗vanilla-back-to-top 라이브러리를 사용하여 🔼맨 위로 가기(Go to top) 버튼을 적용해보자!"
 categories: Github
 tag: [Github]
 toc: true

@@ -1,6 +1,6 @@
 ---
 title: "[Slack] Why Slack with Musinsa 웨비나"
-layout: single
+excerpt: "📃Why Slack with Musinsa 웨비나 참석, 내용 기록과 키워드 정리"
 categories: Slack
 tag: [Slack]
 toc: true

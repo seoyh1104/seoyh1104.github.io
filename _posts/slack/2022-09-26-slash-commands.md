@@ -1,6 +1,6 @@
 ---
 title: "[Slack] Slash Commands 슬래시 커맨드 만들기"
-layout: single
+excerpt: "슬래시 커맨드를 생성하고 테스트 앱에 적용해보자🙋‍♀️"
 categories: Slack
 tag: [Slack]
 toc: true
