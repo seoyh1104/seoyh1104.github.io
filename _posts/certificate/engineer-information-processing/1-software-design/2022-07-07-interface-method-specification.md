@@ -7,7 +7,6 @@ toc: true
 toc_sticky: true
 toc_icon: "bars"
 toc_label: "Table of Contents"
-author_profile: false
 ---
 
 ## 시스템 연계 기술

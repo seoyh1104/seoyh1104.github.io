@@ -7,7 +7,6 @@ toc: true
 toc_sticky: true
 toc_icon: "bars"
 toc_label: "Table of Contents"
-author_profile: false
 ---
 
 ## 상향식 통합 테스트(Bottom Up Integration Test)

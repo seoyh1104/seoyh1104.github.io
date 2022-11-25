@@ -7,7 +7,6 @@ toc: true
 toc_sticky: true
 toc_icon: "bars"
 toc_label: "Table of Contents"
-author_profile: false
 ---
 
 ## 디지털 저작권 관리(DRM; Digital Right Management)의 흐름 ★

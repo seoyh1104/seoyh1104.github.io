@@ -7,7 +7,6 @@ toc: true
 toc_sticky: true
 toc_icon: "bars"
 toc_label: "Table of Contents"
-author_profile: false
 ---
 
 # Why Slack with Musinsa 웨비나 참석

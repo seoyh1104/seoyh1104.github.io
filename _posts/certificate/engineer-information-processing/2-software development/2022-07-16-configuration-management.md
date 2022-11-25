@@ -7,7 +7,6 @@ toc: true
 toc_sticky: true
 toc_icon: "bars"
 toc_label: "Table of Contents"
-author_profile: false
 ---
 
 ## 소프트웨어 패키징의 형상 관리(SCM; Software Configuration Management)

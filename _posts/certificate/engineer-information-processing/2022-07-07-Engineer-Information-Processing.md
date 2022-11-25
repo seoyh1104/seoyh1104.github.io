@@ -7,8 +7,6 @@ toc: true
 toc_sticky: true
 toc_icon: "bars"
 toc_label: "Table of Contents"
-author_profile: false
-sidebar_main: true
 ---
 
 # 정보처리기사 필기 과목

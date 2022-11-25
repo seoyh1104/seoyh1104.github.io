@@ -7,7 +7,6 @@ toc: true
 toc_sticky: true
 toc_icon: "bars"
 toc_label: "Table of Contents"
-author_profile: false
 ---
 
 ## 쿠팡 벤더플렉스 로케이션 출력 자동화 소프트웨어 개발
