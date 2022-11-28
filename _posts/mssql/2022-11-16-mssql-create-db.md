@@ -1,6 +1,6 @@
 ---
 title: "[MSSQL] 데이터베이스(DB) 생성하기"
-layout: single
+excerpt: "DB 생성 및 접속권한 확인"
 categories: MSSQL
 tag: [MSSQL]
 toc: true

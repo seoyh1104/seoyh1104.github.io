@@ -1,6 +1,6 @@
 ---
 title: "[MSSQL] 테이블 생성 및 삭제, 테이블 명 변경 CREATE TABLE・DROP TABLE, SP_RENAME"
-layout: single
+excerpt: "테이블 생성, 삭제 방법과 테이블 이름 변경"
 categories: MSSQL
 tag: [MSSQL]
 toc: true

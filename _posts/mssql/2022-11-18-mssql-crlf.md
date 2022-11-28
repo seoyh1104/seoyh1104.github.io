@@ -1,6 +1,6 @@
 ---
 title: "[MSSQL] 개행문자 CRLF, CHAR(13) + CHAR(10)"
-layout: single
+excerpt: "개행문자 CR(Carriage return), LF(Line feed)에 대한 실습, 소스코드"
 categories: MSSQL
 tag: [MSSQL]
 toc: true
