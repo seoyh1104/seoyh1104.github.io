@@ -1,6 +1,6 @@
 ---
 title: "[Tableau] 태블로 설치하기"
-layout: single
+excerpt: "태블로 평가판 신청, 다운로드 방법"
 categories: Tableau
 tag: [Tableau]
 toc: true
