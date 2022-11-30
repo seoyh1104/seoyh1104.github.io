@@ -1,6 +1,6 @@
 ---
 title: "[Github Blog] Jekyll 이모지 추가하기 (Github Markdown Emoji)"
-layout: single
+excerpt: "Jekyll Github Markdown Emoji 적용하기"
 categories: Github
 tag: [Github, Jekyll]
 toc: true

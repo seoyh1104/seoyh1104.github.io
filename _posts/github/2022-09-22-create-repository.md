@@ -1,6 +1,6 @@
 ---
 title: "[Github] Create repository 원격저장소 만들기 "
-layout: single
+excerpt: "GitHub 저장소(리포지토리) 생성하기"
 categories: Github
 tag: [Github]
 toc: true

@@ -1,6 +1,6 @@
 ---
 title: "[Github Blog] Jekyll 로컬 서버 실행하기"
-layout: single
+excerpt: "Jekyll Local server 실행"
 categories: Github
 tag: [Github, Jekyll]
 toc: true
