@@ -1,6 +1,6 @@
 ---
 title: "[Github Blog] jekyll에러 Liquid Exception invalid byte sequence in UTF-8 해결방법"
-layout: single
+excerpt: " jekyll 로컬서버 실행 시 에러 해결방법"
 categories: Github
 tag: [Github, Jekyll]
 toc: true
@@ -9,8 +9,8 @@ toc_icon: "bars"
 toc_label: "Table of Contents"
 ---
 
-## 에러
-### Ruby
+# 로컬서버 실행 시 에러
+## Ruby
 ```ruby
 Liquid Exception: Liquid error (line 13): invalid byte sequence in UTF-8 in sitemap.xml
                     ------------------------------------------------
@@ -24,7 +24,7 @@ C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/addressable-2.8.0/lib/addressable/uri.rb:
 ## 해결방법
 파일명이 영어로 되어있는지 확인한다.
 
-### 문제점
+## 문제점
 내 경우 아래 위치의 pdf파일을 그대로 commit하여 파일명에 한글이 포함되어 있어 에러가 발생했다.
 - 이전 : `/files/2022-08-11-open-api/오픈뱅킹-개발-테스트-안내.pdf`
 - 변경 : `/files/2022-08-11-open-api/OpenBanking-Development-Test-Guide.pdf`
