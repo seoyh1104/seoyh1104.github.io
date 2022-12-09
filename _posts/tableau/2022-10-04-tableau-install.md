@@ -1,6 +1,6 @@
 ---
 title: "[Tableau] 태블로 설치하기"
-excerpt: "태블로 평가판 신청, 다운로드 방법"
+excerpt: "Tableau 평가판 신청, 다운로드 방법, Tableau 활성화"
 categories: Tableau
 tag: [Tableau]
 toc: true
@@ -32,3 +32,10 @@ toc_label: "Table of Contents"
 ![images](/images/2022-10-04-tableau/tableau8.png)
 - 등록 완료
 ![images](/images/2022-10-04-tableau/tableau9.png)
+
+## Tableau 활성화
+- 정보 입력  
+![images](/images/2022-10-04-tableau/tableau10.png)
+
+- 라이센스 등록  
+![images](/images/2022-10-04-tableau/tableau11.png)
