@@ -47,7 +47,7 @@
             <li><a href="/categories/code-review" class=""> Code Review ({{category[1].size}})</a></li>
           {% endif %}
         {% endfor %}
-        </ul>
+      </ul>
     <span class="nav__sub-title">DATABASE</span>
       <ul>
         {% for category in site.categories %}
@@ -57,6 +57,13 @@
         {% endfor %}
       </ul>
     <span class="nav__sub-title">ETC</span>
+      <ul>
+        {% for category in site.categories %}
+          {% if category[0] == "ETC" %}
+            <li><a href="/categories/etc" class=""> ETC ({{category[1].size}})</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
       <ul>
         {% for category in site.categories %}
           {% if category[0] == "Open Api" %}
@@ -81,14 +88,7 @@
       <ul>
         {% for category in site.categories %}
           {% if category[0] == "Record" %}
-            <li><a href="/categories/record" class=""> 기록하기 ({{category[1].size}})</a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-      <ul>
-        {% for category in site.categories %}
-          {% if category[0] == "ETC" %}
-            <li><a href="/categories/etc" class=""> 기타 ({{category[1].size}})</a></li>
+            <li><a href="/categories/record" class=""> Record ({{category[1].size}})</a></li>
           {% endif %}
         {% endfor %}
       </ul>
