@@ -95,6 +95,13 @@
     <span class="nav__sub-title">CI/CD</span>
       <ul>
         {% for category in site.categories %}
+          {% if category[0] == "Docker" %}
+            <li><a href="/categories/docker" class=""> Docker ({{category[1].size}})</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      <ul>
+        {% for category in site.categories %}
           {% if category[0] == "Jenkins" %}
             <li><a href="/categories/jenkins" class=""> Jenkins ({{category[1].size}})</a></li>
           {% endif %}
