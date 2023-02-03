@@ -56,6 +56,14 @@
           {% endif %}
         {% endfor %}
       </ul>
+    <span class="nav__sub-title">OS</span>
+      <ul>
+        {% for category in site.categories %}
+          {% if category[0] == "Docker" %}
+            <li><a href="/categories/docker" class=""> Docker ({{category[1].size}})</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
     <span class="nav__sub-title">ETC</span>
       <ul>
         {% for category in site.categories %}
@@ -93,13 +101,6 @@
         {% endfor %}
       </ul>
     <span class="nav__sub-title">CI/CD</span>
-      <ul>
-        {% for category in site.categories %}
-          {% if category[0] == "Docker" %}
-            <li><a href="/categories/docker" class=""> Docker ({{category[1].size}})</a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
       <ul>
         {% for category in site.categories %}
           {% if category[0] == "Jenkins" %}
