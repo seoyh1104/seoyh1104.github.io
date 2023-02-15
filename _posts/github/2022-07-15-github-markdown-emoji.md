@@ -1,6 +1,6 @@
 ---
-title: "[Github Blog] Jekyll 이모지 추가하기 (Github Markdown Emoji)"
-excerpt: "Jekyll Github Markdown Emoji 적용하기"
+title: "[Github Blog] Jekyll 이모지(Emoji)😉 추가하기 (Github Markdown Emoji)"
+excerpt: "Jekyll Github Markdown Emoji 적용하기, Github Emoji Picker"
 categories: Github
 tag: [Github, Jekyll]
 toc: true
@@ -9,13 +9,18 @@ toc_icon: "bars"
 toc_label: "Table of Contents"
 ---
 
-## Gemfile
+# Github Emoji Picker
+유용한 사이트 [Github Emoji Picker](https://github-emoji-picker.rickstaa.dev/){:target="_blank"}
+
+# jemoji 추가하여 사용하기
+
+## 📃Gemfile 추가
 
 ```
 gem 'jemoji'
 ```
 
-## _config.yml
+## 📃_config.yml 추가
 
 ```yml
 plugins:
@@ -343,5 +348,5 @@ gem install jemoji
 | :small_blue_diamond: `:small_blue_diamond:` | :small_orange_diamond: `:small_orange_diamond:` | :small_red_triangle: `:small_red_triangle:` |
 | :small_red_triangle_down: `:small_red_triangle_down:` | :shipit: `:shipit:` |
 
-### Reference
+## Reference
 - [https://gist.github.com/rxaviers/7360908#file-gistfile1-md](https://gist.github.com/rxaviers/7360908#file-gistfile1-md){:target="_blank"}
