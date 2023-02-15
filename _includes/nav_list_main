@@ -11,11 +11,11 @@
     </li>
     <li>
     <!-- Add 2022-11-21 Yuhui Seo 카테고리별 사이드바 적용 -->
-    <span class="nav__sub-title">🙋‍♀️PORTFOLIO</span>
+    <span class="nav__sub-title">🙋‍♀️Project</span>
       <ul>
         {% for category in site.categories %}
-          {% if category[0] == "Portfolio" %}
-            <li><a href="/categories/portfolio" class=""> Portfolio ({{category[1].size}})</a></li>
+          {% if category[0] == "Project" %}
+            <li><a href="/categories/project" class=""> Project ({{category[1].size}})</a></li>
           {% endif %}
         {% endfor %}
       </ul>
