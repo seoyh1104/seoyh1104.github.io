@@ -11,7 +11,7 @@
     </li>
     <li>
     <!-- Add 2022-11-21 Yuhui Seo 카테고리별 사이드바 적용 -->
-    <span class="nav__sub-title">🙋‍♀️Project</span>
+    <span class="nav__sub-title">🙋‍♀️PROJECT</span>
       <ul>
         {% for category in site.categories %}
           {% if category[0] == "Project" %}
