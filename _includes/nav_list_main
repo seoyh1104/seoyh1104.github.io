@@ -11,7 +11,7 @@
     </li>
     <li>
     <!-- Add 2022-11-21 Yuhui Seo 카테고리별 사이드바 적용 -->
-    <span class="nav__sub-title">PORTFOLIO</span>
+    <span class="nav__sub-title">🙋‍♀️PORTFOLIO</span>
       <ul>
         {% for category in site.categories %}
           {% if category[0] == "Portfolio" %}
@@ -19,7 +19,7 @@
           {% endif %}
         {% endfor %}
       </ul>
-    <span class="nav__sub-title">CERTIFICATE</span>
+    <span class="nav__sub-title">🏅CERTIFICATE</span>
       <ul>
         {% for category in site.categories %}
           {% if category[0] == "Certificate" %}
