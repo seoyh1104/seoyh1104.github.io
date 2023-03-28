@@ -7,6 +7,7 @@ sidebar_main: true
 ---
 
 ---
+# ☆[[정보처리기사] 실기 정리](/certificate/Engineer-Information-Processing2)
 # ☆[[정보처리기사] 필기 정리](/certificate/Engineer-Information-Processing)
 ---
 
