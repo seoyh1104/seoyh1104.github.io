@@ -7,6 +7,7 @@ toc: true
 toc_sticky: true
 toc_icon: "bars"
 toc_label: "Table of Contents"
+use_math: true
 ---
 
 # 포맷 스트링
@@ -480,7 +481,7 @@ M21
 
 
 # 함수
-1. main 함수  
+## 1. main 함수  
 main 함수는 프로그램이 실행하는 모든 프로그램의 시작점이다. main 함수에 있는 명령어를 실행한다.
 ```c
 자료형 main(파라미터){
@@ -496,8 +497,7 @@ int main(){
 ```
 - main 함수나 사용자 정의 함수는 return을 만나면 그 즉시 함수를 종료한다.
 
-
-2. 사용자 정의 함수  
+## 2. 사용자 정의 함수  
 사용자 정의 함수는 사용자가 직접 새로운 함수를 정의하여 사용하는 방법이다.
 - 사용자 정의 함수에서 매개변수나 생성된 변수는 사용자 정의 함수가 종료되면 없어진다.
 ```c
@@ -519,5 +519,274 @@ void main(){       // 2. main 함수의 시작 부분(프로그램이 제일 처
   printf("%c\n" , a);
 } 
 ```
+- 출력  
+N  
+
+1. 매개변수 전달 방법 구성요소
+- ① 전달인자(Argument)
+  - 실 매개변수(Actual Parameters)
+  - 함수를 호출하는 쪽에서 전달**하는** 변수의 값 또는 변수의 주솟값
+- ② 매개변수(Parameter)
+  - 형식 매개변수(Formal Parameters)
+  - 함수를 호출하는 쪽에서 전달**받는** 변수의 값 또는 변수의 주솟값  
+```c
+#include <stdio.h>
+int fn(int x, int y){ // 매개변수(Parameter)
+...
+}
+void main(){
+  int i, j;
+  ...
+  fn(i, j);            // 전달인자(Argument)
+} 
+```  
+
+2. 매개변수 전달 방법의 종류
+- 1) Call by Value
+  - 변수의 값을 넘겨주고, 이 값은 새로운 공간에 할당되어 사용하는 방식
+  - 형식 매개변수의 어떠한 변화도 실 매개변수에 아무런 영향을 미치지 않음  
+```c
+#include <stdio.h>
+int fn(int x, int y){ // 형식 매개변수는 변수 선언과 동일하게 작성하고,
+...
+}
+void main(){
+  int i, j;
+  ...
+  fn(i, j);          // 실 매개변수는 변수명을 작성함 
+} 
+```
+- 2) Call by Reference
+  - 변수의 값이 아닌 변수가 사용 중인 메모리 공간의 주소를 넘겨주는 방식
+  - 실 매개변수의 주소를 형식 매개변수로 보냄  
+```c
+#include <stdio.h>
+int fn(int* x, int* y){ // Call by Reference, 간접값 연산자(*)를 이용해 포인터 변수 선언과 동일하게 작성하고,
+...
+}
+void main(){
+  int i, j;
+  ...
+  fn(&i, &j);          // 실 매개변수는 주소연산자(&)를 이용해 변수의 주솟값을 작성 
+} 
+```
+- Call-by-Value 예제  
+```c
+#include <stdio.h>
+int fn(int n){     // n = 5 파라미터로 사용자 정의 함수 내에서만 사용할 수 있고, 사용자 정의 함수가 종료되면 사라짐(main 함수의 n과 다름)
+  n = 7;           // n에 7을 대입
+  return n;        // n 값인 7을 fn(5)로 호출한 부분에 전달, return을 만났으므로 사용자 정의 함수가 종료되고, n은 사용자 정의 함수가 종료되었으므로 사라짐
+}
+void main(){
+  int n = 5;       // 해당 n은 main 함수에서 선언했으므로 main 함수에서만 사용할 수 있고, main 함수가 종료되면 사라짐(사용자 정의 함수의 n과 다름)
+  fn(n);           // fn(n)은 반환값 7로 바뀌어 7;와 동일하지만, 7을 어디에도 활용하지 않으므로 아무일이 일어나지 않음
+  printf("%d", n); // main 함수의 n 값인 5를 출력
+} 
+```
+- 출력  
+5  
+- Call-by-Reference 예제
+```c
+#include <stdio.h>
+int fn(int* m){    // fn(int* m）에서 m은 main 함수의 변수 n에 대한 주솟값
+  *m = 7;          // fn의 m이 가리키는 값(main 함수의 n 값)으로 7을 대입
+}
+void main(){
+  int n = 5;       // 해당 n은 main 함수에서 선언했으므로 main 함수에서만 사용할 수 있고, main 함수가 종료되면 사라짐(사용자 정의 함수의 n과 다름) 
+  fn(&n);          // n의 주솟값을 fn 함수에 전달
+  printf("%d", n); // n은 7이므로 7을 출력
+```
+- 출력  
+7
+
+3. 재귀 함수  
+재귀 함수는 함수 자신이 자신을 부르는 함수이다.
+```c
+자료형 함수명(자료형 변수명){
+  함수명(변수명)
+return 반환값;
+}
+```
+- 예제
+```c
+#include <stdio.h>
+int fn(int n){  // n = 3
+  if( n <= 1 ) // 3 <= 1은 거짓이므로 else 문을 실행
+    return 1;
+  else
+    return n*fn(n-1), // 3*fn(3-1), 3*fn(2), 3*2 = 6을 호출한 부분에 전달
+}
+void main(){
+  printf("%d", fn(3));
+}
+```
 - 출력
-N
+6
+
+## 3. 표준 함수
+### 1) 문자열 함수
+1. strcat(String Concatenate) : 문자열끼리 연결하는 함수
+- `strcat(dest, src);` : src의 문자열을 dest 문자열 뒤에 붙임
+- `strncat(dest, src, maxien);` : src의 문자열에서 maxien의 개수만큼 dest 문자열 뒤에 붙임
+- 예제
+```c
+#include <stdio.h>
+#include <string.h>
+void main(){
+  char a[20] = "Hello";
+  char b[10] = "Soojebi";
+  char c[20] = "Hello";
+  strcat(a, b);
+  printf("%s %s\n", a, b);
+  strncat(c, b, 3);
+  printf("%s %s", C, b); 
+}
+```
+- 출력  
+HelloSoojebi Soojebi  
+HelloSoo Soojebi
+
+2. strcpy(String Copy) : 문자열을 복사하는 함수
+- `strcpy(dest, src);` : src의 문자열을 dest 문자열에 복사
+- `strncpy(dest, src, maxien);` : src의 문자열에서 maxien의 개수만큼 dest 문자열에 복사
+- 예제
+```c
+#include <stdio.h>
+#include <string.h> // Strcpy 함수와 strncpy 함수를 사용하기 위해 string.h 헤더 파일을 읽어옴
+void main(){
+  char a[20] = "Hello";
+  char b[10] = "Soojebi";
+  char c[20] = "Hello";
+  strcpy(a, b);            // b의 "Soojebi"가 a에 복사되어 a와 b 모두 Soojebi가 됨
+  printf("%s %s\n", a, b);
+  strncpy(c, b, 3);        // b의 "Soojebi" 중 3글자가 C에 복사되어 C는 Soolo가 됨
+  printf("%s %s", C, b); 
+}
+```
+- 출력  
+Soojebi Soojebi  
+Soolo Soojebi
+
+3. strcmp(String Compare) : 문자열을 비교하는 함수
+- `strcmp(s1, s2);` : s1, s2의 대소를 비교
+- `strncmp(s1, s2, maxien);` : maxlen 길이만큼만 s1, s2의 대소를 비교
+  - 문자열에 대해서 ASCII 코드를 비교하여 s1이 s2보다 크면 1을, s1과 s2이 같으면 0을, s1이 s2보다 작으면 -1을 반환한다.
+  - 사전 배열 방식과 유사, 문자열의 첫 번째 문짜끼리 비교하고, 다르면 아스키 코드 값을 통해 크고 작음을 판별합니다.
+  - 문자열의 첫 번째 문자가 같으면 두 번째 문자끼리 비교하괴 그래도 같으면 세 번째 문자끼리 비교하는 식으로해서 마지막 문자까지 같으면 두 문자열은 같다라고 판별합니다.
+- 예제
+```c
+#include <stdio.h>
+#include <string.h>
+void main(){
+  char a[10] = "HelloA";
+  char b[10] = "HelloB";
+  int c = strcmp(a, b); // A < B이므로 -1을 반환
+  printf("%d\n", c);
+  c = strncmp(a, b, 3);
+  printf("%d", c); 
+}
+```
+- 출력  
+-1  
+0
+
+4. strlen(String Length) : 문자열의 길이를 알려주는 함수
+- `strien(s);` : s의 길이를 알려줌
+
+5. strrev(String Reverse) : 문자열을 거꾸로 뒤집는 함수
+- `strrev(str);` : str 내에 문자열을 거꾸로 뒤집음 
+
+6. strchr : 문자열 내에 일치하는 문자가 있는지 검사하는 함수
+- `strchr(str, c);` : str 내에 C가 존재하는지 알려줌 
+- 예제
+```c
+#include <stdio.h>
+#include <string.h>
+void main(){
+  char a[20] = "Hello";
+  char* p = strchr(a, 'l'); // 첫 번째 'l'이 나온 위치를 반환하여 p라는 포인터 변수에 저장
+  printf("%s", p);          // p라는 포인터 변수가 가리키는 문자부터 NULL 전까지 값을 출력 
+}
+```
+- 출력  
+llo
+
+### 2) 수학 함수
+1. sqrt : 양의 제곱근을 계산하는 함수
+- `sqrt(n);` : $\sqrt{n}$ 의 값을 계산
+  - 양의 제곱큰은 소수(약수가 1과 자기 자신만 있는 숫자)를 확인할 때도 사용합니다. a라는 값의 소수를 확인할 때는 2 ~ (a-1)의 모든 정수들로 나눴을 때 나누어 떨어지지 않는지 확인해야 합니다. 하지만, sqrt를 이용하면  2 ~ $\sqrt{a}$의 정수들만 나누어 떨어지지 않는지 확인하면 되기 때문에 확인해야 할 숫자가 많이 줄어들어 sqrt를 소수 계산할 때 사용합니다.
+  - 101이 소수인지 아닌지 구하기 위해서 2부터 100까지 나누어 떨어지는지 확인할 필요가 없이, 2부터 $\sqrt{101}$(=10.05) 이하의 정수인 10까지 나눠떨어지는지만 확인하면 됩니다.
+- 예제
+```c
+#include <stdio.h>
+#include <math.h>
+void main(){
+  double a;
+  a = sqrt(5.1);     // $\sqrt{5.1} 값을 계산해서 값을 반환해줌
+  printf("%.2f", a); // a 변수에 저장된 값을 소수점 셋째 자리에서 반올림해서 소수점 둘째자리까지 보여줌
+}
+```
+- 출력  
+2.26
+
+2. ceil : 소수점 올림 함수
+- `ceil(n);` : 소수점 올림
+- 예제
+```c
+#include <stdio.h>
+#include <math.h>
+void main() {
+  double a = 1.1;
+  printf("%.2f", ceil(a)); // ceil(1.1), 1.1을 올림한 값인 2를 반환
+}
+```
+- 출력  
+2.00
+
+3. floor : 소수점 내림 함수
+- `floor(n);` : 소수점 내림
+- 예제
+```c
+#include <stdio.h>
+#include <math.h>
+void main() {
+  double a = 1.1;
+  printf("%.2f", floor(a)); // ceil(1.1), 1.1을 내림한 값인 1을 반환
+}
+```
+- 출력  
+1.00
+
+
+### 3) 유틸리티 함수
+1. rand(Random) : 임의의 값을 생성하는 함수
+- `rand();` : 임의의 정숫값 1개를 생성
+  - rand()는 0~32767 중에 하나의 값을 반환
+
+2. srand(Seed Random) : 난수 생성 알고리즘에 사용하는 seed를 정해주는 함수
+- `srand(seed);` : seed 값에 따라 난수 발생기를 초기화한다.
+  - 컴퓨터는 난수를 난수 생성 알고리즘에 의해서 만드는데, 난수 생성 알고리즘의 seed 값이 같으면 프로그램을 실행할 때마다 계속 똑같은 패턴의 난수를 만들게 됩니다. 그래서 seed 값을 프로그램 시작할 때마다 다르게 하도록 seed에 fime 함수를 사용합니다.
+
+3. time : 현재 시간을 가져오는 함수  
+- 1970년 1월 1일 이후로 몇 초가 경과했는지를 나타낸다.
+- `time(NULL);` : time 함수에 파라미터를 NULL로 하면 현재 시간을 리턴 
+- 예제
+```c
+#include <stdio.h>
+#include <stdlib.h> // rand 함수를 사용하기 위해 stdlib.h 헤더 파일을 읽어옴
+#include <time.h>   // time 함수를 사용하기 위해 time.h 헤더 파일을 읽어옴
+void main() {
+  int a;
+  int i;
+  srand(time(NULL));  // srand(time(NULL));을 삭제할 경우 프로그램을 실행할 때마다 똑같은 결과가 나옴
+  for(i=0; i<6; i++){ // 0~5
+    a = rand()%45+1;  // rand()는 임의의 값을 반환하고, 반환한 값에 45로 나눴을 때 나머지(0~44 중 하나의 값을 가짐)에 1을 더함, 1~45
+    printf("%d", a);  // a 변수에는 1~45 중에 임의의 값이 저장됨 
+  }
+}
+```
+- 출력  
+29 17 28 26 24 26
+
+4. atoi(ASCII to Integer) : 문자열을 정수형으로 변환하는 함수
+- `atoi(str);` : 문자열(str)을 정수(int)형으로 변환
