@@ -42,7 +42,7 @@ toc_label: "Table of Contents"
 - 프로그래밍을 위한 기본 사항
 - [C언어](/certificate/C-language)
 - 자바
-- 파이썬
+- [파이썬](/certificate/Python)
 
 ## 11. 응용 SW기초 기술 활용
 (운영체제, 데이터베이스 활용, 네트워크 활용, 개발환경 구축 등)
