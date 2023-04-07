@@ -208,6 +208,8 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  # Add 2023-04-07 Yuhui Seo Customizing the Code Block Syntax Highlighter 
+  syntax_highlighter: rouge
   # Add 2023-04-07 Yuhui Seo Code Block에 Line Number 표시하기
   syntax_highlighter_opts:
     block:
