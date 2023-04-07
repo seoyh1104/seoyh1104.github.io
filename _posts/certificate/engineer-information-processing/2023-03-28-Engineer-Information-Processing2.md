@@ -41,7 +41,7 @@ toc_label: "Table of Contents"
 기본 문법 등
 - 프로그래밍을 위한 기본 사항
 - [C언어](/certificate/C-language)
-- 자바
+- [자바](/certificate/Java)
 - [파이썬](/certificate/Python)
 
 ## 11. 응용 SW기초 기술 활용
