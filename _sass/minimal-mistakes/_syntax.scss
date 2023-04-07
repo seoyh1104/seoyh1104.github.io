@@ -38,6 +38,13 @@ figure.highlight {
       color: $base04;
       border-right: 1px solid $base04;
       text-align: right;
+      // Add 2023-04-07 Yuhui Seo Code Block에 Line Number 복사 금지
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
     }
 
     /* code */
