@@ -39,6 +39,8 @@ toc_label: "Table of Contents"
 
 ## 9. 소프트웨어 개발 보안 구축
 (SW 개발 보안 설계, SW개발 보안 구현 등)
+- [소프트웨어 개발 보안 설계](/certificate/Software-Security)
+- 소프트웨어 개발 보안 구현
 
 ## 10. 프로그래밍 언어활용
 기본 문법 등
