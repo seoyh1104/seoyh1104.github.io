@@ -17,4 +17,4 @@ gem "jemoji"
 
 # Add 2023-04-25 Yuhui Seo
 # gem "jekyll-spaceship", group: :jekyll_plugins
-# gem "faraday-retry"
+gem "faraday-retry"
