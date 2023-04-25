@@ -16,5 +16,5 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "jemoji"
 
 # Add 2023-04-25 Yuhui Seo
-gem "jekyll-spaceship", group: :jekyll_plugins
-gem "faraday-retry"
+# gem "jekyll-spaceship", group: :jekyll_plugins
+# gem "faraday-retry"
