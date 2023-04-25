@@ -237,7 +237,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jemoji # Add 2022-07-15 Yuhui Seo
-  - jekyll-spaceship # Add 2023-04-25 Yuhui Seo
+  # - jekyll-spaceship # Add 2023-04-25 Yuhui Seo
 
 # mimic GitHub Pages with --safe
 whitelist:
