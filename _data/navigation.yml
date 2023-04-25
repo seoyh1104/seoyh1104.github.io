@@ -1,0 +1,28 @@
+# main links
+main:
+  # Update 2022-07-07 Yuhui Seo
+  # - title: "Quick-Start Guide" 
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # Add 2022-07-16 Yuhui Seo
+  - title: "Home"
+    url: index.html
+  - title: "About"
+    url: /about/
+  - title: "Yearly"
+    url: /year-archive/
+  - title: "Monthly"
+    url: /month-archive/
+  - title: "Category"
+    url: /categories/
+  - title: "Tag"
+    url: /tags/
+  - title: "Search"
+    url: /search/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
