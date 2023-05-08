@@ -63,6 +63,7 @@ toc_label: "Table of Contents"
   - [OSI 7계층(Layer) ★★](/certificate/OSI-7Layer)
   - [네트워크 전달 방식](/certificate/Network-Switching)
   - [네트워크 구조](/certificate/Network-Structure)
+  - [신기술 용어](/certificate/new-technology-terms)
 - 기본 개발환경 구축하기
 
 ## 12. 제품 소프트웨어 패키징
