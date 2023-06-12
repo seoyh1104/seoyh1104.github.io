@@ -1,8 +1,8 @@
 ---
 title: "[ETC] 업데이트 & 업그레이드 관련 기록"
 excerpt: "리눅스(Linux) 우분투(Ubuntu) 및 도커(Docker), 윈도우 파워셸(Windows PowerShell) 업데이트 및 업그레이드(Update & Upgrade)"
-categories: OS
-tag: [OS]
+categories: ETC
+tag: [ETC]
 toc: true
 toc_sticky: true
 toc_icon: "bars"
