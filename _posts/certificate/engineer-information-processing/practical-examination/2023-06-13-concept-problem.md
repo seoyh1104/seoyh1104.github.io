@@ -1,6 +1,6 @@
 ---
 title: "[정보처리기사] 정보처리기사 대비 개념 문제"
-excerpt: "랜덤 개념 문제"
+excerpt: " 정보처리기사 대비 랜덤 개념 문제"
 layout: single
 categories: Certificate
 tag: [정보처리기사]
@@ -613,6 +613,24 @@ A. OTP 토큰, B. 패스워드, C. 홍채
 <details>
 <summary>정답</summary>
 - 페이징(Paging)
+</details>
+
+---
+
+보기의 소스코드 품질 도구를 정적 분석도구와 동적 분석도구로 구분지으시오.
+
+(보기)  
+ㄱ : pmd  
+ㄴ : cppcheck  
+ㄷ : SonarQube  
+ㄹ : Avalanche  
+ㅁ : Valgrind  
+ㅂ : checkstyle  
+
+<details>
+<summary>정답</summary>
+- 정적 분석 도구 : ㄱ, ㄴ, ㄷ, ㅂ<br>
+- 동적 분석 도구 : ㄹ, ㅁ
 </details>
 
 ---
