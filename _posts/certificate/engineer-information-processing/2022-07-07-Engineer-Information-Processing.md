@@ -43,10 +43,10 @@ toc_label: "Table of Contents"
 
 
 ## 3. 데이터베이스 구축
-SQL 자격증을 믿고 따로 정리 안함
+SQLD 자격증을 믿고 따로 정리 안함, 공부 안함
 
 ## 4. 프로그래밍 언어 활용
-평소의 지식을 믿고(?) 정리 안함
+평소의 지식을 믿고(?) 정리 안함, 공부 안함
 
 ## 5. 정보시스템 구축 관리
 - [상향식 비용 산정 기법 ★★★](/certificate/cost-calculation-technique)
