@@ -1020,8 +1020,110 @@ SELECT 학년, 반, 이름 FROM 평균성적 WHERE 평균 >= 90 ( ⓐ ) 학년 (
 ---
 
 반정규화(Denormalization)에서 중복테이블을 추가하는 방법을 3가지 적으시오.
-정답 : 집계 테이블 추가
-진행 테이블 추가
-특정 부분만을 포함하는 테이블 추가
+
+<details>
+<summary>정답</summary>
+- 집계 테이블 추가<br>
+- 진행 테이블 추가<br>
+- 특정 부분만을 포함하는 테이블 추가<br>
+</details>
+
+---
+
+다음글이 설명하는 용어를 쓰시오.
+
+패킷교환망인 인터넷을 이용하여 음성정보를 전달하는 전화 관련 기술로서 저렴한 전화서비스를 구현하는데 사용된다. 관련 표준 프로토콜로 ITU H.323과 IETF SIP(Session Initiation Protocol)가 있고, 게이트웨이를 이용하여 공중전화망(PSTN)과 연결할 수 있다.
+
+<details>
+<summary>정답</summary>
+- VoIP
+</details>
+
+---
+
+연속적으로 자신을 복제하는 악성 소프트웨어를 무엇이라고 하는가?
+<details>
+<summary>정답</summary>
+- 웜(Worm)
+</details>
+
+---
+
+ⓐ에 들어갈 알맞은 패턴을 적으시오.
+
+ⓐ은(는) 데이터 스트림 절차의 각 단계를 필터로 캡슐화하여 파이프를 통해 전송하는 패턴이다. 데이터 변환, 버퍼링, 동기화에 사용되며 대표적으로 UNIX 쉘(Shell)이 있다.
+
+<details>
+<summary>정답</summary>
+- 파이프-필터 패턴(Pipe-Filter Pattern)
+</details>
+
+---
+
+UI설계 원칙에 들어갈 알맞은 용어를 쓰시오.
+
+ⓐ : 누구나 쉽게 이해하고 사용할 수 있어야 한다.  
+ⓑ : 누구나 쉽게 배우고 익힐 수 있어야 한다.  
+ⓒ : 사용자의 목적을 정확하게 달성해야 한다.  
+ⓓ : 사용자의 요구사항을 최대한 수용해야하며 오류를 최소화한다.  
+
+<details>
+<summary>정답</summary>
+- ⓐ 직관성, ⓑ 학습성, ⓒ 유효성, ⓓ 유연성
+</details>
+
+---
+
+다음 설명에 해 당하는 공격기법은?
+
+시스템에 접근할 적법한 사용자 아이디와 패스워드를 모를 경우 공격 대상이 이미 시스템에 접속되어 세션이 연결되어 있는 상태를 가로채기 하는 공격으로 아이디와 패스워드를 몰라도 시스템에 접근하여 자원이나 데이터를 사용할 수 있는 공격이다.
+
+<details>
+<summary>정답</summary>
+- Session Hijacking<br>
+(필기 2022년 2회차 90번 기출)
+</details>
+
+---
+
+분산 데이터베이스의 목표 4가지를적으시오.
+
+<details>
+<summary>정답</summary>
+- 위치 투명성(Location Transparency)<br>
+- 중복 투명성(Replication Transparency)<br>
+- 병행 투명성(Concurrency Transparency)<br>
+- 장애 투명성(Failure Transparency)<br>
+</details>
+
+---
+
+소프트웨어 개발 보안요소에서 기밀성에 대해 서술하시오.
+
+<details>
+<summary>정답</summary>
+- 시스템 내의 정보와 자원은 인가된 사용자에게만 접근을 허용하는 것.
+</details>
+
+---
+
+개발자의 장소에서 사용자가 개발자 앞에서 행하는 테스트 기법을 무슨 테스트라고 하는가?
+
+<details>
+<summary>정답</summary>
+- 알파 테스트
+</details>
+
+---
+
+IPv4의 주소 체계는 멀티캐스트, 유니캐스트, ⓐ가 있고 IPv6의 주소 체계는 멀티캐스트, 유니캐스트, ⓑ가 있다.
+
+ⓐ, ⓑ에 들어갈 알맞은 주소 체계를 적으시오.
+
+
+<details>
+<summary>정답</summary>
+- ⓐ : 브로드캐스트(Broadcast), ⓑ : 애니캐스트(Anycast)
+</details>
 
 ---
