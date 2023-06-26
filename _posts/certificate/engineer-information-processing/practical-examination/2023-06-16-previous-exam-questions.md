@@ -515,3 +515,439 @@ C++에서 생성자란 무엇인지 쓰시오.
 </details>
 
 ---
+
+## 2020년 4, 5회 기출문제
+
+현재 IPv4의 확장형으로 IPv4가 가지고 있는 주소 고갈, 보안성, 이동성 지원 등의 문제점을 해결하기 위해서 개발된 128비트 주소체계를 갖는 차세대 인터넷 프로콜은 무엇인가?
+
+  <details>
+  <summary>정답</summary>
+  - IPv6
+  </details>
+
+---
+
+목적에 따른 디자인 패턴의 유형에는 생성(Creational) 패턴, 구조(Structural) 패턴, ( 괄호 ) 패턴이 있다. 괄호에 들어갈 알맞은 패턴 유형을 쓰시오.
+
+<details>
+<summary>정답</summary>
+- 행위(Behavioral)
+</details>
+
+---
+
+다음은 어떤 UML 다이어그램에 관한 예시이다. 어떤 종류의 다이어그램인가?
+
+<details>
+<summary>정답</summary>
+- 패키지 다이어그램
+</details>
+
+---
+
+데이터베이스의 회복(Recovery) 기법 중 Rollback 시 Redo, Undo가 모두 실행되는 트랜잭션 처리법으로 트랜잭션 수행 중 갱신 결과를 바로 DB에 반영하는 기법은 무엇인가?
+
+<details>
+<summary>정답</summary>
+- 즉시 갱신(Immediate Update) 기법
+</details>
+
+---
+
+다음은 n이 10일 때, 10을 2진수로 변환하는 자바 소스 코드이다. A, B 괄호 안에 알맞은 값을 적으시오.  
+![5번.PNG](https://hellocbt.com/files/attach/images/2022/02/22/3fa2497879cba7b9bfaf86e33bebb81b.png)
+
+<details>
+<summary>정답</summary>
+- (A) n > 0 or n >=1 or i < 8 or i <= 7, (B) n%2 or n&1
+</details>
+
+---
+
+다음은 자바 소스 코드이다. 출력 결과를 보고 괄호 A, B에 알맞은 값을 적으시오.  
+![6번.PNG](https://hellocbt.com/files/attach/images/2022/02/22/c247a30d7c7de798a94cde040874dc5a.png)
+
+<details>
+<summary>정답</summary>
+- (A) 3 (B) 5
+</details>
+
+---
+
+해킹 공격의 종류 중 하나인 스니핑(Sniffing)에 대하여 설명하시오.
+
+<details>
+<summary>정답</summary>
+- 스니핑은 공격대상에게 직접 공격을 하지않고 데이터만 몰래 들여다보는 수동적 공격기법이다.<br>
+- 네트워크상에 흘러다니는 트래픽을 훔쳐보는 행위. 주로 자신에게 와야할 정보가 아닌 정보를 자신이 받도록 조작하는 행위이다.
+</details>
+
+---
+
+IP 패킷에서 외부의 공인 IP주소와 포트 주소에 해당하는 내부 IP주소를 재기록하여 라우터를 통해 네트워크 트래픽을 주고받는 기술을 무엇이라고 하는가?
+
+<details>
+<summary>정답</summary>
+- NAT(Network Address Translation)
+</details>
+
+---
+
+다음은 파이썬 소스 코드이다. 출력 결과를 쓰시오.  
+![9번.PNG](https://hellocbt.com/files/attach/images/2022/02/22/9a92b297a54c077272fc355ec7de296a.png)
+
+<details>
+<summary>정답</summary>
+[1, 2, 3]<br>
+7<br>
+123<br>
+45<br>
+6789<br>
+</details>
+
+---
+
+분산 컴퓨팅 기술 기반의 데이터 위변조 방지 기술로 P2P방식을 기반으로 하여 소규모 데이터들이 연결되어 형성된 '블록'이라는 분산 데이터 저장 환경에 관리 대상 데이터를 저장함으로써 누구도 임의로 수정할 수 없고 누구나 변경의 결과를 열람할 수 있게끔 만드는 기술은 무엇인가?
+
+<details>
+<summary>정답</summary>
+- 블록체인
+</details>
+
+---
+
+오픈 소스 기반으로 한 분산 컴퓨팅 플랫폼으로, 일반 PC급 컴퓨터들로 가상화된 대형 스토리지를 형성하고 그 안에 보관된 거대한 데이터 세트를 병렬로 처리할 수 있도록 개발된 자바 소프트웨어 프레임워크로 구글, 야후 등에 적용한 기술은 무엇인가?
+
+<details>
+<summary>정답</summary>
+- 하둡(Hadoop)
+</details>
+
+---
+
+데이터베이스 이상 현상(Anomaly)의 종류 3가지를 쓰시오.
+갱신이상, 삽입이상, 삭제이상
+
+<details>
+<summary>정답</summary>
+- 삽입 이상(Insertion Anomaly), 삭제 이상(Delete Anomaly), 갱신 이상(Update Anomaly)<br>
+(삽삭갱)
+</details>
+
+---
+
+다음은 프로세스 상태 전이도이다. A, B, C에 알맞은 상태를 쓰시오.
+
+<details>
+<summary>정답</summary>
+- A. 준비(Ready), B. 실행(Run), C. 대기(Wait)<br>
+(생준실대완)
+</details>
+
+---
+
+테스트 오라클 중 특정한 몇 개의 입력값에 대해서만 기대하는 결과를 제공해주는 오라클은 무엇인가?
+
+<details>
+<summary>정답</summary>
+- 샘플링 오라클<br>
+(참샘휴일)
+</details>
+
+---
+
+점수에 따른 성적 부여가 잘 되었는지 테스트하고자 한다. 아래에 알맞는 테스트 기법은 무엇인가?  
+![15번.PNG](https://hellocbt.com/files/attach/images/2022/02/22/447471a672d8c1135d99c9ccb52a1910.png)
+
+<details>
+<summary>정답</summary>
+- 동치 분할 테스트(동등 분할 테스트)
+</details>
+
+---
+
+다음 조건을 만족하면서 학과별로 튜플 수가 얼마인지 구하는 SQL문을 작성하시오.  
+![16번.PNG](https://hellocbt.com/files/attach/images/2022/02/22/5e075f874c59677e7443a1f91cea8997.png)
+
+<details>
+<summary>정답</summary>
+- SELECT 학과, COUNT(학과) AS '학과별튜플수' FROM 학생 GROUP BY 학과;
+</details>
+
+---
+
+데니스 리치와 켄톰슨 등이 함께 벨 연구소를 통해 만든 운영체제이며, 90% 이상 C언어로 구현되어 있고, 시스템 프로그램이 모듈화되어 있어서 다른 하드웨어 기종으로 쉽게 이식 가능하며 계층적 트리 구조를 가짐으로써 통합적인 파일 관리가 용이한 운영체제는 무엇인가?
+리눅스
+
+<details>
+<summary>정답</summary>
+- 유닉스(UNIX)
+</details>
+
+---
+
+다음은 C언어 소스 코드이다. 출력 값을 쓰시오.  
+![18번.PNG](https://hellocbt.com/files/attach/images/2022/02/22/8cc8d0262efbb658c1c0a559a96ff5fc.png)
+
+<details>
+<summary>정답</summary>
+KOREA<br>
+EA<br>
+K<br>
+E<br>
+M<br>
+</details>
+
+---
+
+다음은 자바(Java) 소스 코드이다. 출력 결과를 쓰시오.  
+![19번.PNG](https://hellocbt.com/files/attach/images/2022/02/22/678a6a27ce399cd6593d2525b40cc066.png)
+
+<details>
+<summary>정답</summary>
+- 1
+</details>
+
+---
+
+정보 보안의 3요소 중 가용성(Availability)에 대하여 설명하시오.
+
+<details>
+<summary>정답</summary>
+- 가용성은 인가받은 사용자는 언제라도 사용 가능한 것을 의미한다.<br>
+- 가용성은 권한을 가진 사용자나 애플리케이션이 원하는 서비스를 지속적으로 사용할 수 있도록 보장하는 특성이다.
+</details>
+
+---
+
+## 2021년 1회 기출문제
+
+물리 네트워크(MAC) 주소에 해당하는 IP 주소를 알려주는 프로토콜로 역순 주소 결정 프로토콜을 무엇이라고 하는지 쓰시오.
+
+<details>
+<summary>정답</summary>
+- RARP (Reverse Address Resolution Protocol)
+</details>
+
+---
+
+다음은 DB 설계 절차에 관한 설명이다. 다음 빈칸에 들어갈 알맞은 용어를 쓰시오.
+(   A   )은/는 특정 DBMS의 특성 및 성능을 고려하여 데이터베이스 저장 구조로 변환하는 과정으로 결과로 나오는 명세서는 테이블 정의서 등이 있다.
+
+(   B   )은/는 현실 세계에 대한 인식을 추상적, 개념적으로 표현하여 개념적 구조를 도출하는 과정으로 주요 산출물에는 E-R 다이어그램이 있다.
+
+(   C   )은/는 목표 DBMS에 맞는 스키마 설계, 트랜잭션 인터페이스를 설계하는 정규화 과정을 수행한다.
+
+(보기)  
+구현 / 개념적 설계 / 논리적 설계 / 요구사항 분석 / 물리적 설계  
+
+<details>
+<summary>정답</summary>
+- A: 물리적 설계, B: 개념적 설계, C: 논리적 설계
+</details>
+
+---
+
+다음은 요구사항의 분류에 대한 설명이다. 괄호 ( ) 안에 들어갈 요구사항의 유형에 대해서 쓰시오.
+
+(   A   ) 요구사항은 시스템이 제공하는 기능, 서비스에 대한 요구사항이다.  
+(   B   ) 요구사항은 시스템이 수행하는 기능 이외의 사항, 시스템 구축에 대한 제약사항에 관한 요구사항이다.
+
+<details>
+<summary>정답</summary>
+- A: 기능적, B: 비기능적
+</details>
+
+---
+
+웹 서비스명, 제공 위치, 메세지 포맷, 프로토콜 정보 등 웹 서비스에 대한 상세 정보가 기술된 XML 형식으로 구성된 언어를 무엇이라고 하는지 쓰시오.
+
+<details>
+<summary>정답</summary>
+- WSDL
+</details>
+
+---
+
+다음은 파이썬 코드이다. 출력 결과를 쓰시오.  
+![5번.PNG](https://hellocbt.com/files/attach/images/2022/02/22/bdde73e8881b08d983f851df33106c75.png)
+
+<details>
+<summary>정답</summary>
+- skiddp
+</details>
+
+---
+
+다음 SQL 실행 결과를 숫자만 쓰시오.  
+![6번.PNG](https://hellocbt.com/files/attach/images/2022/02/22/c561a1a9ad32ad313de316c7bcaa0e67.png)
+
+<details>
+<summary>정답</summary>
+- 1
+</details>
+
+---
+
+다음 Java 프로그램 결과를 쓰시오.  
+![7번.PNG](https://hellocbt.com/files/attach/images/2022/02/22/982a879fce45ff9d0434d021eb60a949.png)
+
+<details>
+<summary>정답</summary>
+3<br>
+1<br>
+45<br>
+50<br>
+89<br>
+</details>
+
+---
+
+정규화된 엔티티, 속성, 관계에 대해 성능 향상과 개발 운영의 단순화를 위해 중복, 통합, 분리 등을 수행하는 데이터 모델링의 기법을 무엇이라고 하는지 쓰시오.
+
+<details>
+<summary>정답</summary>
+- 반정규화
+</details>
+
+---
+
+다음은 블랙박스 기법에 대한 예제이다. 블랙박스 기법 두 가지를 쓰시오.
+
+A : 0 ≤ x ≤ 10이면 -1, 0, 10, 11 검사  
+B : 입력 데이터의 영역을 유사한 도메인별로 유효값과 무효값을 그룹핑하여 나누어서 검사
+
+<details>
+<summary>정답</summary>
+- A: 경계값 분석, B: 동치 분할 테스트
+</details>
+
+---
+
+다음은 테스트 종류에 대한 설명이다. 빈칸에 들어갈 알맞은 용어를 보기에서 찾아 쓰시오.
+(   A   ) 은/는 개별 모듈, 서브루틴이 정상적으로 
+실행되는지 확인
+(   B   ) 은/는 인터페이스 간 시스템이 정상적으로
+실행되는지 확인
+
+(보기)  
+시스템 테스트 / 인수 테스트 / 알파 테스트 / 단위 테스트 / 통합 테스트 / 회귀 테스트
+
+<details>
+<summary>정답</summary>
+- 단위 테스트 B: 통합 테스트
+</details>
+
+---
+
+
+다음 빈칸에 들어갈 알맞은 용어를 쓰시오.
+IPv6는 (   A   )  비트 길이를 가진다.
+IPv4는 길이 32bit이며, (   B   ) 비트씩 네 부분으로 나눈다.
+
+<details>
+<summary>정답</summary>
+- A: 128, B: 8
+</details>
+
+---
+
+공유메모리, 소켓, 세마포어, 메세지 큐 등 프로세스 간 통신하는 기술을 무엇이라고 하는지 쓰시오.
+
+<details>
+<summary>정답</summary>
+- 프로세스 간 통신(IPC, Inter Process Communication)
+</details>
+
+---
+
+시스템 통합에 사용되는 솔루션으로 구축 유형에는 Point to Point, Hub & Spoke, Message Bus가 있다. 기업에서 운영되는 서로 다른 플랫폼 및 애플리케이션 간의 정보를 전달, 연계 , 통합이 가능하도록 해주는 솔루션을 무엇이라고 하는지 쓰시오.
+
+<details>
+<summary>정답</summary>
+- EAI (Enterprise Application integration)
+</details>
+
+---
+
+주어진 테이블의 Cardinality / Degree를 구하시오.  
+![14.PNG](https://hellocbt.com/files/attach/images/2022/02/22/adaa2dd25a045efcbeb3088c4b23c4b8.png)
+
+<details>
+<summary>정답</summary>
+- Cardinality : 5 Degree : 4
+</details> 
+
+---
+
+다음은 C언어 프로그램이다. 실행 결과를 쓰시오.  
+![15.PNG](https://hellocbt.com/files/attach/images/2022/02/22/cc247926201497b33c8fe249ea720e47.png)
+
+<details>
+<summary>정답</summary>
+- Lee 38
+</details>
+
+---
+
+데이터 모델 구성요소 3가지를 쓰시오.
+
+개체 데이터 모델에서는 (  A  ) 을/를 이용하여 실제 데이터를 처리하는 작업에 대한 명세를 나타내는데  
+논리 데이터 모델에서는 (  B  ) 을/를 어떻게 나타낼 것인지 표현한다. 
+
+(  C  ) 은/는 데이터 무결성 유지를 위한 데이터베이스의 보편적 방법으로 릴레이션의 특정 칼럼에 설정하는 제약을 의미하며, 개체무결성과 참조 무결성 등이 있다.
+
+<details>
+<summary>정답</summary>
+- A:연산, B: 구조, C: 제약조건
+</details>
+
+---
+
+다음은 Java 프로그램이다. 실행 결과를 쓰시오.  
+![17.PNG](https://hellocbt.com/files/attach/images/2022/02/22/a4fdf1687489b7227a48db3ecc93cdbc.png)
+
+<details>
+<summary>정답</summary>
+0 + 1 + 2 + 3 + 4 + 5 = 15
+</details>
+
+---
+
+시스템 객체의 접근을 개인 또는 그룹의 식별자에 기반을 둔 방법, 어떤 종류의 접근 권한을 가진 사용자가 다른 사용자에 자신의 판단에 따라 권한을 허용하는 접근제어 방식은 ?
+
+<details>
+<summary>정답</summary>
+- 임의적 접근 통제(DAC, Discretionary Access Control)
+</details>
+
+---
+
+다음은 결합도에 대한 설명이다. 빈칸에 들어갈 알맞은 용어를 보기에서 찾아 쓰시오.
+
+(  A  ) 은/는 다른 모듈 내부에 있는 변수나 기능을 다른 모듈에서 사용하는 경우의 결합도  
+(  B  ) 은/는 모듈 간의 인터페이스로 배열이나 객체, 구조 등이 전달되는 경우의 결합도
+(  C  ) 은/는 파라미터가 아닌 모듈 밖에 선언된 전역 변수를 참조하고 전역 변수를 갱신하는 식으로 상호작용하는 경우의 결합도
+
+(보기)  
+자료 결합도 / 스탬프 결합도 / 제어 결합도 / 공통 결합도 / 내용 결합도 / 외부 결합도
+
+<details>
+<summary>정답</summary>
+- A. 내용 결합도, B. 스탬프 결합도, C. 공통 결합도
+</details> 
+
+---
+
+괄호 안에 공통으로 들어갈 공격 기법을 적으시오.
+
+(      ) 은/는 세션 관리 취약점을 이용한 공격 기법으로, '세션을 가로채다' 라는 의미이다. 이 공격은 정상적 연결을 RST 패킷을 통해 종료시킨 후 재연결 시 희생자가 아닌 공격자에게 연결한다.
+
+<details>
+<summary>정답</summary>
+- 세션 하이재킹
+</details>
+
+---
+
+## 2021년 2회 기출문제
