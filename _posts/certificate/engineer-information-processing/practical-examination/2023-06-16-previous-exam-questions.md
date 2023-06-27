@@ -726,17 +726,17 @@ M<br>
 
 <details>
 <summary>정답</summary>
-- RARP (Reverse Address Resolution Protocol)
+- RARP(Reverse Address Resolution Protocol)
 </details>
 
 ---
 
 다음은 DB 설계 절차에 관한 설명이다. 다음 빈칸에 들어갈 알맞은 용어를 쓰시오.
-(   A   )은/는 특정 DBMS의 특성 및 성능을 고려하여 데이터베이스 저장 구조로 변환하는 과정으로 결과로 나오는 명세서는 테이블 정의서 등이 있다.
 
-(   B   )은/는 현실 세계에 대한 인식을 추상적, 개념적으로 표현하여 개념적 구조를 도출하는 과정으로 주요 산출물에는 E-R 다이어그램이 있다.
 
-(   C   )은/는 목표 DBMS에 맞는 스키마 설계, 트랜잭션 인터페이스를 설계하는 정규화 과정을 수행한다.
+(   A   )은/는 특정 DBMS의 특성 및 성능을 고려하여 데이터베이스 저장 구조로 변환하는 과정으로 결과로 나오는 명세서는 테이블 정의서 등이 있다.  
+(   B   )은/는 현실 세계에 대한 인식을 추상적, 개념적으로 표현하여 개념적 구조를 도출하는 과정으로 주요 산출물에는 E-R 다이어그램이 있다.  
+(   C   )은/는 목표 DBMS에 맞는 스키마 설계, 트랜잭션 인터페이스를 설계하는 정규화 과정을 수행한다.  
 
 (보기)  
 구현 / 개념적 설계 / 논리적 설계 / 요구사항 분석 / 물리적 설계  
@@ -825,24 +825,23 @@ B : 입력 데이터의 영역을 유사한 도메인별로 유효값과 무효�
 ---
 
 다음은 테스트 종류에 대한 설명이다. 빈칸에 들어갈 알맞은 용어를 보기에서 찾아 쓰시오.
-(   A   ) 은/는 개별 모듈, 서브루틴이 정상적으로 
-실행되는지 확인
-(   B   ) 은/는 인터페이스 간 시스템이 정상적으로
-실행되는지 확인
+
+(   A   ) 은/는 개별 모듈, 서브루틴이 정상적으로 실행되는지 확인  
+(   B   ) 은/는 인터페이스 간 시스템이 정상적으로 실행되는지 확인
 
 (보기)  
 시스템 테스트 / 인수 테스트 / 알파 테스트 / 단위 테스트 / 통합 테스트 / 회귀 테스트
 
 <details>
 <summary>정답</summary>
-- 단위 테스트 B: 통합 테스트
+- A: 단위 테스트, B: 통합 테스트
 </details>
 
 ---
 
-
 다음 빈칸에 들어갈 알맞은 용어를 쓰시오.
-IPv6는 (   A   )  비트 길이를 가진다.
+
+IPv6는 (   A   )  비트 길이를 가진다.  
 IPv4는 길이 32bit이며, (   B   ) 비트씩 네 부분으로 나눈다.
 
 <details>
@@ -914,7 +913,7 @@ IPv4는 길이 32bit이며, (   B   ) 비트씩 네 부분으로 나눈다.
 
 ---
 
-시스템 객체의 접근을 개인 또는 그룹의 식별자에 기반을 둔 방법, 어떤 종류의 접근 권한을 가진 사용자가 다른 사용자에 자신의 판단에 따라 권한을 허용하는 접근제어 방식은 ?
+시스템 객체의 접근을 개인 또는 그룹의 식별자에 기반을 둔 방법, 어떤 종류의 접근 권한을 가진 사용자가 다른 사용자에 자신의 판단에 따라 권한을 허용하는 접근제어 방식은?
 
 <details>
 <summary>정답</summary>
@@ -951,3 +950,310 @@ IPv4는 길이 32bit이며, (   B   ) 비트씩 네 부분으로 나눈다.
 ---
 
 ## 2021년 2회 기출문제
+
+---
+
+## 2021년 3회 기출문제
+
+다음 Java 코드에 대한 알맞는 출력값을 쓰시오.
+
+```java
+class Connection {
+  private static Connection _inst = null;
+  private int count = 0;
+    static public Connection get() {
+      if(_inst == null) {
+      _inst = new Connection();
+      return _inst; 
+      }
+    return _inst;
+    }
+  public void count() { count ++; }
+  public int getCount() { return count; }
+}
+public class testcon {
+  public static void main(String[] args) {
+    Connection conn1 = Connection.get();
+    conn1.count();
+    Connection conn2 = Connection.get();
+    conn2.count();
+    Connection conn3 = Connection.get();
+    conn3.count();
+    
+    System.out.print(conn1.getCount());
+  }
+}
+```
+
+<details>
+<summary>정답</summary>
+- 3
+</details>
+
+---
+
+다음은 정보 보호 기술인 AAA에 대한 설명이다. 각 설명에 맞는 용어를 적으시오.
+
+(1) 시스템을 접근하기 전에 접근 시도하는 사용자의 신원을 검증  
+(2) 검증된 사용자에게 어떤 수준의 권한과 서비스를 허용  
+(3) 사용자의 자원(시간,정보,위치 등)에 대한 사용 정보를 수집  
+
+<details>
+<summary>정답</summary>
+- (1) Authentication (2) Authorization (3) Accounting
+</details>
+
+---
+
+데이터 제어어(DCL) 중 GRANT 에 대하여 설명하시오.
+
+<details>
+<summary>정답</summary>
+- 데이터베이스 사용자에게 사용 권한을 부여하는데 사용하는 명령어
+</details>
+
+---
+
+다음은 스푸핑 공격에 대한 설명이다. 괄호안에 들어갈 알맞은 답안을 작성하시오.
+
+( ) 스푸핑은 근거리 통신망 하에서 ( ) 메시지를 이용하여 상대방의 데이터 패킷을 중간에서 가로채는 중간자 공격 기법이다. 
+이 공격은 데이터 링크 상의 프로토콜인 (  )를 이용하기 때문에 근거리상의 통신에서만 사용할 수 있는 공격이다.
+
+<details>
+<summary>정답</summary>
+- ARP
+</details>
+
+---
+
+다음은 Coupling에 대한 설명이다. 설명에 대한 Coupling 종류를 영문으로 작성하시오.
+
+어떤 모듈이 다른 모듈의 내부 논리 조직을 제어하기 위한 목적으로 제어 신호를 이용하여 통신하는 경우의 결합도이다.  
+하위 모듈에서 상위 모듈로 제어 신호가 이동하여 상위 모듈에게 처리 명령을 부여하는 권리 전도 현상이 발생할 수 있다.
+
+<details>
+<summary>정답</summary>
+- 제어(control)
+</details>
+
+---
+
+OSI 7 Layer에 대한 설명이다. 다음 각 설명에 해당되는 계층을 적으시오.
+
+(1) 물리계층을 통해 송수신되는 정보의 오류와 흐름을 관리하여 안전한 정보의 전달을 수행할 수 있도록 도와주는 역할  
+(2) 데이터를 목적지까지 가장 안전하고 빠르게 전달하는 기능  
+(3) 수신자에서 데이터의 압축을 풀수 있는 방식으로 된 데이터 압축  
+
+<details>
+<summary>정답</summary>
+- (1) 데이터링크 (2) 네트워크 (3) 표현
+</details>
+
+---
+
+다음 객체지향 추상화에 대한 설명 중 괄호 안에 들어갈 알맞은 용어를 적으시오.
+
+(  A  )은/는 클래스들 사이의 전체 또는 부분 같은 관계를 나타내는 것이고,  
+(  B  )은/는 한 클래스가 다른 클래스를 포함하는 상위 개념일 때 IS-A관계라하며, 일반화 관계로 모델링한다.
+
+<details>
+<summary>정답</summary>
+- (1) Aggregation (2) Generalization
+</details>
+
+---
+
+다음은 테스트케이스의 구성요소에 대한 설명이다. 괄호 ( ) 안에 들어갈 알맞는 보기를 고르시오.
+![8.png](https://hellocbt.com/files/attach/images/2022/02/09/ee330908aadf8270d2a1a68f80d5d314.png)
+
+<details>
+<summary>정답</summary>
+- (1) 테스트 조건 (2) 테스트 데이터 (3) 예상 결과
+</details>
+
+---
+
+아래에서 설명하는 테스트 기법은 무엇인가?
+
+입력 자료 간의 관계와 출력에 영향을 미치는 상황을 체계적으로 분석 후 효용성이 높은 테스트 케이스를 선정해서 테스트하는 기법
+
+<details>
+<summary>정답</summary>
+- Cause Effect Graph (원인 결과 그래프)
+</details>
+
+---
+
+다음에서 설명하는 블록 암호 알고리즘을 적으시오.
+
+이것은 미국 NBS (National Bureau of Standards, 현재 NIST)에서 국가 표준으로 정한 암호 알고리즘으로, 64비트 평문을 64비트 암호문으로 암화하는 대칭키 암호 알고리즘이다. 키는 7비트마다 오류검출을 위한 정보가 1비트씩 들어가기 때문에 실질적으로는 56비트이다. 현재는 취약하여 사용되지 않는다.
+
+<details>
+<summary>정답</summary>
+- DES
+</details>
+
+---
+
+다음 Java 코드에 대한 알맞는 출력값을 쓰시오.
+```java
+public class testco {
+ public static void main(String[] args) {
+  int a = 3, b = 4, c = 3, d = 5;
+  if((a == 2 | a == c) & !(c > d) & (1 == b ^ c != d)) {
+   a = b + c;
+    if(7 == b ^ c != a) {
+     System.out.println(a);
+    } else {
+    System.out.println(b);
+    }
+  } else {
+    a = c + d;
+    if(7 == c ^ d != a) {
+    System.out.println(a);
+    } else {
+    System.out.println(d);
+    }
+  }
+ }
+}
+```
+
+<details>
+<summary>정답</summary>
+- 7
+</details>
+
+---
+
+다음 C언어 코드에 대한 알맞는 출력값을 쓰시오.
+```c
+#include 
+int main(){
+  int *arr[3];
+  int a = 12, b = 24, c = 36;
+  arr[0] = &a;
+  arr[1] = &b;
+  arr[2] = &c;
+ 
+  printf("%dn", *arr[1] + **arr + 1);
+}
+```
+
+<details>
+<summary>정답</summary>
+- 37
+</details>
+
+---
+
+다음은, 테이블에서 조건값을 실행한 화면이다. 이에 대한 알맞는 결과값을 작성하시오.  
+![13.png](https://hellocbt.com/files/attach/images/2022/02/09/128ef16560f3d35f99592d813894e273.png)
+
+<details>
+<summary>정답</summary>
+- 4
+</details>
+
+---
+
+다음 파이썬 코드의 알맞는 출력값을 쓰시오.
+```py
+a,b = 100, 200
+print(a==b)
+```
+
+<details>
+<summary>정답</summary>
+- False
+</details>
+
+---
+
+다음은 UML의 다이어그램에 대한 설명이다. 어떤 다이어그램에 대한 설명인가?
+
+이 다이어그램은 문제 해결을 위한 도메인 구조를 나타내어 보이지 않는 도메인 안의 개념과 같은 추상적인 개념을 기술하기 위해 나타낸 것이다. 또한 소프트웨어의 설계 혹은 완성된 소프트웨어의 구현 설명을 목적으로 사용할 수 있다. 이 다이어그램은 속성(attribute)과 메서드(method)를 포함한다.
+
+<details>
+<summary>정답</summary>
+- 클래스 다이어그램
+</details>
+
+---
+
+다음 보기에서 설명하는 객체지향 디자인 패턴은 무엇인가?
+
+부모(상위) 클래스에 알려지지 않은 구체 클래스를 생성하는 패턴이며,  
+자식(하위) 클래스가 어떤 객체를 생성할지를 결정하도록 하는 패턴이기도 하다.  
+부모(상위) 클래스 코드에 구체 클래스 이름을 감추기 위한 방법으로도 사용한다.
+
+<details>
+<summary>정답</summary>
+- 팩토리
+</details>
+
+---
+
+다음 C언어 코드에 대한 알맞는 출력값을 쓰시오.
+
+```c
+#include
+struct jsu {
+  char nae[12];
+  int os, db, hab, hhab;
+};
+int main(){
+  struct jsu st[3] = {`{"데이터1", 95, 88}`,
+                      `{"데이터2", 84, 91}`,
+                      `{"데이터3", 86, 75}`};
+  struct jsu* p;
+ 
+  p = &st[0];
+ 
+  (p + 1)->hab = (p + 1)->os + (p + 2)->db;
+  (p + 1)->hhab = (p+1)->hab + p->os + p->db;
+ 
+  printf("%dn", (p+1)->hab + (p+1)->hhab);
+}
+```
+
+<details>
+<summary>정답</summary>
+- 501
+</details>
+
+---
+
+다음은 파일 구조(File Structures)에 대한 설명이다. 괄호 ( ) 안에 들어갈 알맞는 답을 작성하시오.
+
+파일구조는 파일을 구성하는 레코드들이 보조기억장치에 편성되는 방식으로 접근 방식에 따라 방식이 달라진다. 접근 방법중, 레코드들을 키-값 순으로 정렬하여 기록하고, 레코드의 키 항목만을 모은 (  )을 구성하여 편성하는 방식이 있으며, 레코드를 참조할 때는 (   ) 이 가르키는 주소를 사용하여 직접 참조할 수 있다. 파일 구조에는 순차 접근, (  ) 접근,  해싱 접근이 있다.
+
+<details>
+<summary>정답</summary>
+- 인덱스(또는 색인)
+</details>
+
+---
+
+다음 설명에 대한 알맞는 답을 영문약어로 작성하시오.
+
+(  )는 사용자가 그래픽을 통해 컴퓨터와 정보를 교환하는 환경을 말한다. 이전까지 사용자 인터페이스는 키보드를 통해 명령어로 작업을 수행시켰지만 (   )에서는 키보드 뿐만 아니라 마우스 등을 이용하여 화면의 메뉴 중 하나를 선택하여 작업을 수행한다. 화면에 아이콘을 띄어 마우스를 이용하여 화면에 있는 아이콘을 클릭하여 작업을 수행하는 방식이다. 대표적으로는 마이크로소프트의 Windows, 
+애플의 Mac 운영체제 등이 있다.
+
+<details>
+<summary>정답</summary>
+- GUI
+</details>
+
+---
+
+다음은 소프트웨어 통합 테스트에 대한 설명이다. 괄호 ( ) 안에 들어갈 알맞는 답을 작성하시오.
+
+(   A  ) 방식은 하위 모듈부터 시작하여 상위 모듈로 테스트를 진행하는 방식이며, 이 방식을 사용하기 위해서는 (  B  )가 필요하다. (   C   )는 이미 존재하는 하위 모듈과 존재하지 
+않은 상위 모듈에 대한 인터페이스 역할을 한다.
+
+<details>
+<summary>정답</summary>
+- A: 상향식, B: 테스트 드라이버, C:
+</details>
+
