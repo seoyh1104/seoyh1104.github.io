@@ -951,12 +951,293 @@ IPv4는 길이 32bit이며, (   B   ) 비트씩 네 부분으로 나눈다.
 
 ## 2021년 2회 기출문제
 
+네트워크 장치를 필요로하지 않고 네트워크 토폴로지가 동적으로 변화되는 특징이 있으며 응용 분야로는 긴급 구조, 긴급 회의, 전쟁터에서의 군사 네트워크에 활용되는 네트워크는?
+
+<details>
+<summary>정답</summary>
+- 애드혹 네트워크(Ad-hoc Network)
+</details>
+
+---
+
+다음에서 설명하는 개념을 쓰시오.
+
+(1) 사람의 감정이나 경험을 나타내는 개념  
+(2) 사용자 인터페이스. 예로는 CLI이 있다.
+
+<details>
+<summary>정답</summary>
+- (1) UX(User Experience), (2) UI(User Interface)
+</details>
+
+---
+
+트랜잭션의 특징 중, 원자성(Atomicity)에 대해 약술하시오.
+
+<details>
+<summary>정답</summary>
+- 모두 반영되거나 아니면 전혀 반영되지 않아야 하는 특성
+</details>
+
+---
+
+다음은 제 ( ) 정규형으로 부분 함수적 종속성 제거하여 완전 함수적 종속을 만족하는 정규형이다. 괄호안에 들어갈 답안을 쓰시오.  
+![4.PNG](https://hellocbt.com/files/attach/images/2022/02/16/0ebda85c945705f64787d6d60ea27eab.png)
+
+<details>
+<summary>정답</summary>
+- 2
+</details>
+
+---
+
+테이블의 튜플을 수정하고자 한다. 올바른 SQL을 작성하기 위해 빈칸을 채우시오.
+
+(    A   ) 테이블명  (     B    )  컬럼 = 값 WHRE 점수 >= 90;
+
+<details>
+<summary>정답</summary>
+- A: UPDATE, B: SET
+</details>
+
+---
+
+다음은 Inner Join을 하기 위한 SQL이다. 빈칸에 들어갈 문구를 적으시오.
+
+SELECT .... FROM 학생정보 a JOIN 학과정보 b (   A   ) a.학과 = b.(   B   )
+
+<details>
+<summary>정답</summary>
+- A: ON, B: 학과
+</details>
+
+---
+
+다음 파이썬 코드의 결과를 적으시오.
+
+```py
+a = 100
+result = 0
+for i in range(1,3);
+   result = a >> i
+   result = result + 1
+pirnt(result)
+```
+
+<details>
+<summary>정답</summary>
+- 26
+</details>
+
+---
+
+미국 국립 표준 기술연구소 (NIST), DES를 대체하며, 128 비트 블록 크기와 128,192,256비트 키 크기의 대칭 키 암호화 방식은?
+
+<details>
+<summary>정답</summary>
+- AES (Advanced Encryption Standard)
+</details>
+
+---
+
+다음은 화이트 박스 테스트 검증 기준에 대한 설명이다. 다음에서 설명하는 알맞은 용어를 보기에서 찾아 쓰시오.
+
+(1) 최소 한 번은 모든 문장을 수행한다.  
+(2) 결정(Decision) 검증 기준이라고도 하며 조건 별로 True/False일 때 수행한다.  
+(3) (2)와 달리 전체 조건식에 상관없이 개별 조건식의 True/False에 대해 수행한다.
+
+(보기)  
+다중 조건 커버리지, 변형 조건 / 결정 커버리지, 조건 커버리지, 결정 커버리지, 구조 커버리지, 구문 커버리지
+
+<details>
+<summary>정답</summary>
+- (1) 구문 커버리지, (2) 결정 커버리지, (3) 조건 커버리지
+</details>
+
+---
+
+다음은 '이'씨 성을 가진 사람의 이름을 내림차순으로 출력하기 위한 SQL문이다. 괄호안에 들어갈 알맞은 답안을 작성하시오.
+
+```sql
+SELECT ... FROM ... WHERE 이름 LIKE (    A    ) 
+ORDER  BY (    B     )
+```
+
+<details>
+<summary>정답</summary>
+- A: 이%, B: DESC
+</details>
+
+---
+
+다음 각 번호에 해당하는 응집도를 보기에서 찾아 쓰시오.
+
+(1) 입출력 간 연관성은 없으나, 순서에 따라 수행할 필요가 있다.  
+(2) 동일한 입출력을 사용한다.  
+(3) 하나의 기능에 모두 기여하고 밀접하게 관련되어 있다.
+
+(보기)  
+기능적(functional), 시간적(temporal), 교환적(communication), 절차적(procedural), 순차적(sequential), 우연적(coincidental), 논리적(logical)
+순차적, 기능적, 논리적
+
+<details>
+<summary>정답</summary>
+- (1) 절차적 응집도 (2) 교환적 응집도 (3) 기능적 응집도
+</details>
+
+---
+
+다음에서 설명하는 패킷 교환 방식을 작성하시오.
+
+(1) 목적지 호스트와 미리 연결한 후, 통신하는 연결형 교환 방식  
+(2) 헤더에 붙어서 개별적으로 전달하는 비연결형 교환 방식  
+
+<details>
+<summary>정답</summary>
+- (1) 가상 회선 방식 (2) 데이터그램 방식
+</details>
+
+---
+
+다음 괄호 안에 들어갈 디자인 패턴의 명을 적으시오.
+
+디자인 패턴 중 (    ) 패턴은 반복적으로 사용되는 객체들의 상호작용을 패턴화한 것으로 클래스나 객체들이 상호작용하는 방법이다. 
+알고리즘 등과 관련된 패턴으로 그 예는 Interpreter, Observer, Command 가 있다.
+
+<details>
+<summary>정답</summary>
+- 행위(behavioral)
+</details>
+
+---
+
+병행제어기법 중, 접근한 데이터에 대한 연산을 모두 마칠때까지 상호배제하는 기법을 무엇이라 하는지 작성하시오.
+
+<details>
+<summary>정답</summary>
+- 잠금, 로킹(Locking)
+</details>
+
+---
+
+럼바우 데이터 모델링에 관한 설명으로써, 각 번호에서 설명하는 모델링 기법을 보기에서 찾아서 작성하시오.
+
+(1) 입력값이 출력값일 때 - 예) 자료 흐름도(DFD)  
+(2) 시간에 따라 변하는 것 - 예) 상태 변화도(DFD)  
+(3) 구조 - 예) ER다이어그램(ERD)  
+
+(보기)  
+Operation, Sequence, Information, Transaction, Function, I/O, Dynamic, Architecture, Cause-Effect, Constraint, Rebuilding, Duration
+
+<details>
+<summary>정답</summary>
+- (1) Function Modeling, (2) Dynamic Modeling, (3) Object Modeling
+</details>
+
+---
+
+다음은 C언어에 관한 소스코드이다. 실행 결과값을 작성하시오.  
+```c
+int mp(int base, int exp);
+int main(){
+   int res;
+   res = mp(2,10);
+   printf("%d",res);
+   return 0;
+}
+
+int mp(int base, int exp) {
+   int res = 1;
+   for(int i=0; i < exp; i++){
+      res = res * base;
+   }
+   
+   return res;
+}
+```
+
+<details>
+<summary>정답</summary>
+- 1024
+</details>
+
+---
+
+이것은 클래스 내에서 객체 생성 없이 사용할 수 있는 메소드이다. 다음의 출력 결과를 보고 괄호안에 알맞은 답안을 작성하시오.  
+![17.PNG](https://hellocbt.com/files/attach/images/2022/02/16/96f630d7a14334c76748d87df677f284.png)
+
+<details>
+<summary>정답</summary>
+- static
+</details>
+
+---
+
+다음은 C언어 코드의 실행 결과를 적으시오.
+```c
+int main() {
+	int ary[3];
+	int s = 0;
+	*(ary + 0) = 1;
+	ary[1] = *(ary + 0) + 2;
+	ary[2] = *ary + 3;
+	for(int i = 0; i < 3; i++) {
+		s = s + ary[i];
+	}
+	printf("%d", s);
+}
+```
+
+<details>
+<summary>정답</summary>
+- 8
+</details>
+
+---
+
+다음 JAVA 코드의 실행 결과를 적으시오.
+```java
+public class over {
+	public static void main(String[] args){
+    	ovr a1 = new ovr1();
+        ovr a2 = new ovr2();
+        System.out.println(a1.sun(3,2) + a2.sun(3,2));
+    }
+    
+    int sun(int x, int y){
+    	return x + y;
+    }
+}
+
+class ovr2 extends ovr1 {
+	int sun(int x, int y){
+    	return x - y + super.sun(x,y);
+    }
+}
+```
+
+<details>
+<summary>정답</summary>
+- 11
+</details>
+
+---
+
+다음 괄호 안에 들어갈 알맞은 답안을 작성하시오.
+
+테스트 하네스의 도구 구성 요소 중, 상향식 테스트시, 상위 모듈 역할을 대신하는 테스트 드라이버와 하향식 테스트 시, 
+하위 모듈 역할을 대신하는 테스트 (       ) 이 있다.
+
+<details>
+<summary>정답</summary>
+- 스텁
+</details>
+
 ---
 
 ## 2021년 3회 기출문제
 
 다음 Java 코드에 대한 알맞는 출력값을 쓰시오.
-
 ```java
 class Connection {
   private static Connection _inst = null;
@@ -1195,7 +1476,6 @@ print(a==b)
 ---
 
 다음 C언어 코드에 대한 알맞는 출력값을 쓰시오.
-
 ```c
 #include
 struct jsu {
@@ -1249,11 +1529,12 @@ int main(){
 
 다음은 소프트웨어 통합 테스트에 대한 설명이다. 괄호 ( ) 안에 들어갈 알맞는 답을 작성하시오.
 
-(   A  ) 방식은 하위 모듈부터 시작하여 상위 모듈로 테스트를 진행하는 방식이며, 이 방식을 사용하기 위해서는 (  B  )가 필요하다. (   C   )는 이미 존재하는 하위 모듈과 존재하지 
-않은 상위 모듈에 대한 인터페이스 역할을 한다.
+(   A  ) 방식은 하위 모듈부터 시작하여 상위 모듈로 테스트를 진행하는 방식이며, 이 방식을 사용하기 위해서는 (  B  )가 필요하다.
 
 <details>
 <summary>정답</summary>
-- A: 상향식, B: 테스트 드라이버, C:
+- A: 상향식, B: 테스트 드라이버
 </details>
+
+---
 
