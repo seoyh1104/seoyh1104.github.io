@@ -33,6 +33,7 @@ toc_label: "Table of Contents"
 기술 선정
 - 개발언어 및 프레임워크: Python
 - UI: [Slack block-kit-builder](https://app.slack.com/block-kit-builder){:target="_blank"}를 활용하여 구성
+- 차트 생성: : Open Source Chart Image API [QuickChart](https://quickchart.io/documentation/reference/line-style){:target="_blank"} 활용
 - 자동화: 작업 스케줄러 설정(Windows Task Scheduler python script)
 
 ## 기능구조
