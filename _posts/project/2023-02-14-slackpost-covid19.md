@@ -34,6 +34,7 @@ toc_label: "Table of Contents"
 - 개발언어 및 프레임워크: Python
 - UI: [Slack block-kit-builder](https://app.slack.com/block-kit-builder){:target="_blank"}를 활용하여 구성
 - 차트 생성: : Open Source Chart Image API [QuickChart](https://quickchart.io/documentation/reference/line-style){:target="_blank"} 활용
+  - [작성 예시: 실습-한국 코로나19 감염 추이](/python/quick-chart/#실습--한국-코로나19-감염-추이){:target="_blank"}
 - 자동화: 작업 스케줄러 설정(Windows Task Scheduler python script)
 
 ## 기능구조
