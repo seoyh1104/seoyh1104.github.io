@@ -64,7 +64,7 @@ toc_label: "Table of Contents"
 - save_csv, csv_to_excel 함수 : 쿼리 결과를 csv → excel 파일로 저장
 - save_excel 함수 : 엑셀 파일의 데이터 및 시트 상세 설정
 
-1. Slack API 클래스
+3. Slack API 클래스
 - set_data 함수 : 랙 정상화 대상 데이터 취득
 - post_message 함수 : 랙 정상화 대상이 없을 때, Slack으로 메시지 전송
 - post_files_upload 함수 : 대상이 있을 때, 리스트 및 엑셀 파일 전송
@@ -86,8 +86,13 @@ toc_label: "Table of Contents"
 ## 프로젝트 이슈
 
 ## 시연 및 Q&A
+기록 생략
 
 # 코드리뷰
+## 일시
+2023년 5월 31일 수요일
+
+## 내용
 1. 코드 리뷰 PPT 자료 내용 보완
 - 클래스 다이어그램 설계
   - 어떤 파일의 다이어그램인지 모르겠다.
