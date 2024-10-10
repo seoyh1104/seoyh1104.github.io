@@ -1,5 +1,5 @@
 ---
-title: "[Git] 브랜치에서 작업 후 마스터로 병합하는(merge) 방법"
+title: "[Git] 브랜치에서 작업 후 마스터로 병합하는 방법(Git merge)"
 excerpt: "브랜치에서 작업한 내용을 마스터로 병합하는 과정과 Git 명령어 사용법을 설명합니다."
 categories: Git
 tag: [Git]
@@ -17,14 +17,18 @@ toc_label: "Table of Contents"
 신규 생성한 브랜치명: `work_publisher`
 
 1. 클론 작업  
-프로젝트를 자신의 로컬에 클론한다.
-`git clone git@bitbucket.org:프로젝트명.git`
+프로젝트를 자신의 로컬에 클론한다.  
+```
+git clone git@bitbucket.org:프로젝트명.git
+```
 
 2. 클론된 디렉토리로 이동  
-`cd 디렉토리명`
+```
+cd 디렉토리명
+```
 
-3. work_publisher 브랜치로 전환  
-- 클론 후 기본적으로 master 브랜치에 있을 가능성이 높기에, work_publisher 브랜치로 전환하기 위해 아래 명령어를 입력한다.
+3. work_publisher 브랜치로 전환
+클론 후 기본적으로 master 브랜치에 있을 가능성이 높기에, work_publisher 브랜치로 전환하기 위해 아래 명령어를 입력한다.
 ```
 git checkout work_publisher
 ```
