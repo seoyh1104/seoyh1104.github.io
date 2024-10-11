@@ -48,10 +48,9 @@ git push origin work_publisher
 ```
 
 6. work_publisher 브랜치를 master 브랜치로 병합  
-작업이 완료되면 work_publisher 브랜치에서 master 브랜치로 병합할 수 있다.
-
-이는 리뷰어가 진행하는 형식으로 작업자에게는 5. 변경 사항 푸시 후 → Pull Request(PR)하는 방법까지를 안내하였다.  
-(리뷰어가 PR을 검토한 후, 병합이 가능하면 `Merge` 버튼을 눌러 `master` 브랜치로 병합하는 형식)  
+작업이 완료되면 work_publisher 브랜치에서 master 브랜치로 병합할 수 있다.  
+- 이는 리뷰어가 진행하는 형식으로 작업자에게는 5. 변경 사항 푸시 후 → Pull Request(PR)하는 방법까지를 안내하였다.  
+  (리뷰어가 PR을 검토한 후, 병합이 가능하면 `Merge` 버튼을 눌러 `master` 브랜치로 병합하는 형식)  
 
 - 6-1. 먼저 master 브랜치로 전환한다.
 ```
