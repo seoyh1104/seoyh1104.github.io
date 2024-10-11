@@ -27,7 +27,7 @@ git clone git@bitbucket.org:프로젝트명.git
 cd 디렉토리명
 ```
 
-3. work_publisher 브랜치로 전환
+3. work_publisher 브랜치로 전환  
 클론 후 기본적으로 master 브랜치에 있을 가능성이 높기에, work_publisher 브랜치로 전환하기 위해 아래 명령어를 입력한다.
 ```
 git checkout work_publisher
@@ -65,3 +65,7 @@ git merge work_publisher
 ```
 git push origin master
 ```
+
+위 6번의 경우에는, 리뷰어가 진행하는 형식으로 작업자에게 5. 변경 사항 푸시 후 → Pull Request(PR)하는 방법까지를 안내하였다.  
+(리뷰어가 PR을 검토한 후, 병합이 가능하면 `Merge` 버튼을 눌러 `master` 브랜치로 병합하는 형식)
+
