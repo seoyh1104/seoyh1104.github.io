@@ -21,8 +21,9 @@ FileZilla는 FTP(파일 전송 프로토콜) 클라이언트 및 서버 프로�
 - 빠른 전송 속도: 다중 연결을 사용해 빠른 업로드/다운로드 지원
 - 다양한 플랫폼 지원: Windows, macOS, Linux에서 사용 가능
 
-### 파일질라 다운로드 한글사이트
-https://jenkins.io/download/{:target="_blank"}
+### 다운로드
+파일질라 다운로드 한글사이트
+- [https://www.filezilla.kr/](https://www.filezilla.kr/){:target="_blank"}
 
 ## 📌 FileZilla로 리눅스 서버 접속하는 방법 (SFTP 사용)
 1. FileZilla 실행
